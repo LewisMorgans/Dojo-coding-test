@@ -1,0 +1,4358 @@
+{
+    "health": {
+      "healthy": true
+    },
+    "countries": [
+      {
+        "name": "Afghanistan",
+        "topLevelDomain": [
+          ".af"
+        ],
+        "alpha2Code": "AF",
+        "alpha3Code": "AFG",
+        "callingCodes": [
+          "93"
+        ],
+        "capital": "Kabul",
+        "altSpellings": [
+          "AF",
+          "Afġānistān"
+        ],
+        "subregion": "Southern Asia",
+        "region": "Asia",
+        "population": 38928341,
+        "latlng": [
+          33.0,
+          65.0
+        ],
+        "demonym": "Afghan",
+        "area": 652230.0,
+        "timezones": [
+          "UTC+04:30"
+        ],
+        "borders": [
+          "IRN",
+          "PAK",
+          "TKM",
+          "UZB",
+          "TJK",
+          "CHN"
+        ],
+        "nativeName": "افغانستان",
+        "numericCode": "004",
+        "flags": {
+          "svg": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
+          "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png"
+        },
+        "currencies": [
+          {
+            "code": "AFN",
+            "name": "Afghan afghani",
+            "symbol": "؋"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "ps",
+            "iso639_2": "pus",
+            "name": "Pashto",
+            "nativeName": "پښتو"
+          },
+          {
+            "iso639_1": "uz",
+            "iso639_2": "uzb",
+            "name": "Uzbek",
+            "nativeName": "Oʻzbek"
+          },
+          {
+            "iso639_1": "tk",
+            "iso639_2": "tuk",
+            "name": "Turkmen",
+            "nativeName": "Türkmen"
+          }
+        ],
+        "translations": {
+          "br": "Afeganistão",
+          "pt": "Afeganistão",
+          "nl": "Afghanistan",
+          "hr": "Afganistan",
+          "fa": "افغانستان",
+          "de": "Afghanistan",
+          "es": "Afganistán",
+          "fr": "Afghanistan",
+          "ja": "アフガニスタン",
+          "it": "Afghanistan",
+          "hu": "Afganisztán"
+        },
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "SAARC",
+            "name": "South Asian Association for Regional Cooperation"
+          }
+        ],
+        "cioc": "AFG",
+        "independent": true
+      },
+      {
+        "name": "Åland Islands",
+        "topLevelDomain": [
+          ".ax"
+        ],
+        "alpha2Code": "AX",
+        "alpha3Code": "ALA",
+        "callingCodes": [
+          "358"
+        ],
+        "capital": "Mariehamn",
+        "altSpellings": [
+          "AX",
+          "Aaland",
+          "Aland",
+          "Ahvenanmaa"
+        ],
+        "subregion": "Northern Europe",
+        "region": "Europe",
+        "population": 28875,
+        "latlng": [
+          60.116667,
+          19.9
+        ],
+        "demonym": "Ålandish",
+        "area": 1580.0,
+        "timezones": [
+          "UTC+02:00"
+        ],
+        "nativeName": "Åland",
+        "numericCode": "248",
+        "flags": {
+          "svg": "https://flagcdn.com/ax.svg",
+          "png": "https://flagcdn.com/w320/ax.png"
+        },
+        "currencies": [
+          {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "sv",
+            "iso639_2": "swe",
+            "name": "Swedish",
+            "nativeName": "svenska"
+          }
+        ],
+        "translations": {
+          "br": "Ilhas de Aland",
+          "pt": "Ilhas de Aland",
+          "nl": "Ålandeilanden",
+          "hr": "Ålandski otoci",
+          "fa": "جزایر الند",
+          "de": "Åland",
+          "es": "Alandia",
+          "fr": "Åland",
+          "ja": "オーランド諸島",
+          "it": "Isole Aland",
+          "hu": "Åland-szigetek"
+        },
+        "flag": "https://flagcdn.com/ax.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EU",
+            "name": "European Union"
+          }
+        ],
+        "independent": false
+      },
+      {
+        "name": "Albania",
+        "topLevelDomain": [
+          ".al"
+        ],
+        "alpha2Code": "AL",
+        "alpha3Code": "ALB",
+        "callingCodes": [
+          "355"
+        ],
+        "capital": "Tirana",
+        "altSpellings": [
+          "AL",
+          "Shqipëri",
+          "Shqipëria",
+          "Shqipnia"
+        ],
+        "subregion": "Southern Europe",
+        "region": "Europe",
+        "population": 2837743,
+        "latlng": [
+          41.0,
+          20.0
+        ],
+        "demonym": "Albanian",
+        "area": 28748.0,
+        "gini": 33.2,
+        "timezones": [
+          "UTC+01:00"
+        ],
+        "borders": [
+          "MNE",
+          "GRC",
+          "MKD",
+          "UNK"
+        ],
+        "nativeName": "Shqipëria",
+        "numericCode": "008",
+        "flags": {
+          "svg": "https://flagcdn.com/al.svg",
+          "png": "https://flagcdn.com/w320/al.png"
+        },
+        "currencies": [
+          {
+            "code": "ALL",
+            "name": "Albanian lek",
+            "symbol": "L"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "sq",
+            "iso639_2": "sqi",
+            "name": "Albanian",
+            "nativeName": "Shqip"
+          }
+        ],
+        "translations": {
+          "br": "Albânia",
+          "pt": "Albânia",
+          "nl": "Albanië",
+          "hr": "Albanija",
+          "fa": "آلبانی",
+          "de": "Albanien",
+          "es": "Albania",
+          "fr": "Albanie",
+          "ja": "アルバニア",
+          "it": "Albania",
+          "hu": "Albánia"
+        },
+        "flag": "https://flagcdn.com/al.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "CEFTA",
+            "name": "Central European Free Trade Agreement"
+          }
+        ],
+        "cioc": "ALB",
+        "independent": true
+      },
+      {
+        "name": "Bermuda",
+        "topLevelDomain": [
+          ".bm"
+        ],
+        "alpha2Code": "BM",
+        "alpha3Code": "BMU",
+        "callingCodes": [
+          "1"
+        ],
+        "capital": "Hamilton",
+        "altSpellings": [
+          "BM",
+          "The Islands of Bermuda",
+          "The Bermudas",
+          "Somers Isles"
+        ],
+        "subregion": "Northern America",
+        "region": "Americas",
+        "population": 63903,
+        "latlng": [
+          32.33333333,
+          -64.75
+        ],
+        "demonym": "Bermudian",
+        "area": 54.0,
+        "timezones": [
+          "UTC-04:00"
+        ],
+        "nativeName": "Bermuda",
+        "numericCode": "060",
+        "flags": {
+          "svg": "https://flagcdn.com/bm.svg",
+          "png": "https://flagcdn.com/w320/bm.png"
+        },
+        "currencies": [
+          {
+            "code": "BMD",
+            "name": "Bermudian dollar",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Bermudas",
+          "pt": "Bermudas",
+          "nl": "Bermuda",
+          "hr": "Bermudi",
+          "fa": "برمودا",
+          "de": "Bermuda",
+          "es": "Bermudas",
+          "fr": "Bermudes",
+          "ja": "バミューダ",
+          "it": "Bermuda",
+          "hu": "Bermuda"
+        },
+        "flag": "https://flagcdn.com/bm.svg",
+        "cioc": "BER",
+        "independent": false
+      },
+      {
+        "name": "Bhutan",
+        "topLevelDomain": [
+          ".bt"
+        ],
+        "alpha2Code": "BT",
+        "alpha3Code": "BTN",
+        "callingCodes": [
+          "975"
+        ],
+        "capital": "Thimphu",
+        "altSpellings": [
+          "BT",
+          "Kingdom of Bhutan"
+        ],
+        "subregion": "Southern Asia",
+        "region": "Asia",
+        "population": 771612,
+        "latlng": [
+          27.5,
+          90.5
+        ],
+        "demonym": "Bhutanese",
+        "area": 38394.0,
+        "gini": 37.4,
+        "timezones": [
+          "UTC+06:00"
+        ],
+        "borders": [
+          "CHN",
+          "IND"
+        ],
+        "nativeName": "ʼbrug-yul",
+        "numericCode": "064",
+        "flags": {
+          "svg": "https://flagcdn.com/bt.svg",
+          "png": "https://flagcdn.com/w320/bt.png"
+        },
+        "currencies": [
+          {
+            "code": "BTN",
+            "name": "Bhutanese ngultrum",
+            "symbol": "Nu."
+          },
+          {
+            "code": "INR",
+            "name": "Indian rupee",
+            "symbol": "₹"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "dz",
+            "iso639_2": "dzo",
+            "name": "Dzongkha",
+            "nativeName": "རྫོང་ཁ"
+          }
+        ],
+        "translations": {
+          "br": "Butão",
+          "pt": "Butão",
+          "nl": "Bhutan",
+          "hr": "Butan",
+          "fa": "بوتان",
+          "de": "Bhutan",
+          "es": "Bután",
+          "fr": "Bhoutan",
+          "ja": "ブータン",
+          "it": "Bhutan",
+          "hu": "Bhután"
+        },
+        "flag": "https://flagcdn.com/bt.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "SAARC",
+            "name": "South Asian Association for Regional Cooperation"
+          }
+        ],
+        "cioc": "BHU",
+        "independent": true
+      },
+      {
+        "name": "Bolivia (Plurinational State of)",
+        "topLevelDomain": [
+          ".bo"
+        ],
+        "alpha2Code": "BO",
+        "alpha3Code": "BOL",
+        "callingCodes": [
+          "591"
+        ],
+        "capital": "Sucre",
+        "altSpellings": [
+          "BO",
+          "Buliwya",
+          "Wuliwya",
+          "Plurinational State of Bolivia",
+          "Estado Plurinacional de Bolivia",
+          "Buliwya Mamallaqta",
+          "Wuliwya Suyu",
+          "Tetã Volívia"
+        ],
+        "subregion": "South America",
+        "region": "Americas",
+        "population": 11673029,
+        "latlng": [
+          -17.0,
+          -65.0
+        ],
+        "demonym": "Bolivian",
+        "area": 1098581.0,
+        "gini": 41.6,
+        "timezones": [
+          "UTC-04:00"
+        ],
+        "borders": [
+          "ARG",
+          "BRA",
+          "CHL",
+          "PRY",
+          "PER"
+        ],
+        "nativeName": "Bolivia",
+        "numericCode": "068",
+        "flags": {
+          "svg": "https://flagcdn.com/bo.svg",
+          "png": "https://flagcdn.com/w320/bo.png"
+        },
+        "currencies": [
+          {
+            "code": "BOB",
+            "name": "Bolivian boliviano",
+            "symbol": "Bs."
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "es",
+            "iso639_2": "spa",
+            "name": "Spanish",
+            "nativeName": "Español"
+          },
+          {
+            "iso639_1": "ay",
+            "iso639_2": "aym",
+            "name": "Aymara",
+            "nativeName": "aymar aru"
+          },
+          {
+            "iso639_1": "qu",
+            "iso639_2": "que",
+            "name": "Quechua",
+            "nativeName": "Runa Simi"
+          }
+        ],
+        "translations": {
+          "br": "Bolívia",
+          "pt": "Bolívia",
+          "nl": "Bolivia",
+          "hr": "Bolivija",
+          "fa": "بولیوی",
+          "de": "Bolivien",
+          "es": "Bolivia",
+          "fr": "Bolivie",
+          "ja": "ボリビア多民族国",
+          "it": "Bolivia",
+          "hu": "Bolívia"
+        },
+        "flag": "https://flagcdn.com/bo.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "USAN",
+            "name": "Union of South American Nations",
+            "otherAcronyms": [
+              "UNASUR",
+              "UNASUL",
+              "UZAN"
+            ],
+            "otherNames": [
+              "Unión de Naciones Suramericanas",
+              "União de Nações Sul-Americanas",
+              "Unie van Zuid-Amerikaanse Naties",
+              "South American Union"
+            ]
+          }
+        ],
+        "cioc": "BOL",
+        "independent": true
+      },
+      {
+        "name": "Bonaire, Sint Eustatius and Saba",
+        "topLevelDomain": [
+          ".an",
+          ".nl"
+        ],
+        "alpha2Code": "BQ",
+        "alpha3Code": "BES",
+        "callingCodes": [
+          "599"
+        ],
+        "capital": "Kralendijk",
+        "altSpellings": [
+          "BQ",
+          "Boneiru"
+        ],
+        "subregion": "Caribbean",
+        "region": "Americas",
+        "population": 17408,
+        "latlng": [
+          12.15,
+          -68.266667
+        ],
+        "demonym": "Dutch",
+        "area": 294.0,
+        "timezones": [
+          "UTC-04:00"
+        ],
+        "nativeName": "Bonaire",
+        "numericCode": "535",
+        "flags": {
+          "svg": "https://flagcdn.com/bq.svg",
+          "png": "https://flagcdn.com/w320/bq.png"
+        },
+        "currencies": [
+          {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "nl",
+            "iso639_2": "nld",
+            "name": "Dutch",
+            "nativeName": "Nederlands"
+          }
+        ],
+        "translations": {
+          "br": "Bonaire",
+          "pt": "Bonaire",
+          "nl": "Caribisch Nederland",
+          "hr": "Bonaire, Sint Eustatius and Saba",
+          "fa": "بونیر",
+          "de": "Bonaire, Sint Eustatius und Saba",
+          "es": "Bonaire, Sint Eustatius and Saba",
+          "fr": "Bonaire, Saint-Eustache et Saba",
+          "ja": "Bonaire, Sint Eustatius and Saba",
+          "it": "Bonaire, Saint-Eustache e Saba",
+          "hu": "Bonaire"
+        },
+        "flag": "https://flagcdn.com/bq.svg",
+        "independent": true
+      },
+      {
+        "name": "Bosnia and Herzegovina",
+        "topLevelDomain": [
+          ".ba"
+        ],
+        "alpha2Code": "BA",
+        "alpha3Code": "BIH",
+        "callingCodes": [
+          "387"
+        ],
+        "capital": "Sarajevo",
+        "altSpellings": [
+          "BA",
+          "Bosnia-Herzegovina",
+          "Босна и Херцеговина"
+        ],
+        "subregion": "Southern Europe",
+        "region": "Europe",
+        "population": 3280815,
+        "latlng": [
+          44.0,
+          18.0
+        ],
+        "demonym": "Bosnian, Herzegovinian",
+        "area": 51209.0,
+        "gini": 33.0,
+        "timezones": [
+          "UTC+01:00"
+        ],
+        "borders": [
+          "HRV",
+          "MNE",
+          "SRB"
+        ],
+        "nativeName": "Bosna i Hercegovina",
+        "numericCode": "070",
+        "flags": {
+          "svg": "https://flagcdn.com/ba.svg",
+          "png": "https://flagcdn.com/w320/ba.png"
+        },
+        "currencies": [
+          {
+            "code": "BAM",
+            "name": "Bosnia and Herzegovina convertible mark",
+            "symbol": "KM"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "bs",
+            "iso639_2": "bos",
+            "name": "Bosnian",
+            "nativeName": "bosanski jezik"
+          },
+          {
+            "iso639_1": "hr",
+            "iso639_2": "hrv",
+            "name": "Croatian",
+            "nativeName": "hrvatski jezik"
+          },
+          {
+            "iso639_1": "sr",
+            "iso639_2": "srp",
+            "name": "Serbian",
+            "nativeName": "српски језик"
+          }
+        ],
+        "translations": {
+          "br": "Bósnia e Herzegovina",
+          "pt": "Bósnia e Herzegovina",
+          "nl": "Bosnië en Herzegovina",
+          "hr": "Bosna i Hercegovina",
+          "fa": "بوسنی و هرزگوین",
+          "de": "Bosnien und Herzegowina",
+          "es": "Bosnia y Herzegovina",
+          "fr": "Bosnie-Herzégovine",
+          "ja": "ボスニア・ヘルツェゴビナ",
+          "it": "Bosnia ed Erzegovina",
+          "hu": "Bosznia-Hercegovina"
+        },
+        "flag": "https://flagcdn.com/ba.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "CEFTA",
+            "name": "Central European Free Trade Agreement"
+          }
+        ],
+        "cioc": "BIH",
+        "independent": true
+      },
+      {
+        "name": "Botswana",
+        "topLevelDomain": [
+          ".bw"
+        ],
+        "alpha2Code": "BW",
+        "alpha3Code": "BWA",
+        "callingCodes": [
+          "267"
+        ],
+        "capital": "Gaborone",
+        "altSpellings": [
+          "BW",
+          "Republic of Botswana",
+          "Lefatshe la Botswana"
+        ],
+        "subregion": "Southern Africa",
+        "region": "Africa",
+        "population": 2351625,
+        "latlng": [
+          -22.0,
+          24.0
+        ],
+        "demonym": "Motswana",
+        "area": 582000.0,
+        "gini": 53.3,
+        "timezones": [
+          "UTC+02:00"
+        ],
+        "borders": [
+          "NAM",
+          "ZAF",
+          "ZMB",
+          "ZWE"
+        ],
+        "nativeName": "Botswana",
+        "numericCode": "072",
+        "flags": {
+          "svg": "https://flagcdn.com/bw.svg",
+          "png": "https://flagcdn.com/w320/bw.png"
+        },
+        "currencies": [
+          {
+            "code": "BWP",
+            "name": "Botswana pula",
+            "symbol": "P"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          },
+          {
+            "iso639_1": "tn",
+            "iso639_2": "tsn",
+            "name": "Tswana",
+            "nativeName": "Setswana"
+          }
+        ],
+        "translations": {
+          "br": "Botsuana",
+          "pt": "Botsuana",
+          "nl": "Botswana",
+          "hr": "Bocvana",
+          "fa": "بوتسوانا",
+          "de": "Botswana",
+          "es": "Botswana",
+          "fr": "Botswana",
+          "ja": "ボツワナ",
+          "it": "Botswana",
+          "hu": "Botswana"
+        },
+        "flag": "https://flagcdn.com/bw.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "African Union",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "cioc": "BOT",
+        "independent": true
+      },
+      {
+        "name": "Bouvet Island",
+        "topLevelDomain": [
+          ".bv"
+        ],
+        "alpha2Code": "BV",
+        "alpha3Code": "BVT",
+        "callingCodes": [
+          "47"
+        ],
+        "altSpellings": [
+          "BV",
+          "Bouvetøya",
+          "Bouvet-øya"
+        ],
+        "subregion": "South Antarctic Ocean",
+        "region": "Antarctic Ocean",
+        "population": 0,
+        "latlng": [
+          -54.43333333,
+          3.4
+        ],
+        "demonym": "Norwegian",
+        "area": 49.0,
+        "timezones": [
+          "UTC+01:00"
+        ],
+        "nativeName": "Bouvetøya",
+        "numericCode": "074",
+        "flags": {
+          "svg": "https://flagcdn.com/bv.svg",
+          "png": "https://flagcdn.com/w320/bv.png"
+        },
+        "currencies": [
+          {
+            "code": "NOK",
+            "name": "Norwegian krone",
+            "symbol": "kr"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "no",
+            "iso639_2": "nor",
+            "name": "Norwegian",
+            "nativeName": "Norsk"
+          },
+          {
+            "iso639_1": "nb",
+            "iso639_2": "nob",
+            "name": "Norwegian Bokmål",
+            "nativeName": "Norsk bokmål"
+          },
+          {
+            "iso639_1": "nn",
+            "iso639_2": "nno",
+            "name": "Norwegian Nynorsk",
+            "nativeName": "Norsk nynorsk"
+          }
+        ],
+        "translations": {
+          "br": "Ilha Bouvet",
+          "pt": "Ilha Bouvet",
+          "nl": "Bouveteiland",
+          "hr": "Otok Bouvet",
+          "fa": "جزیره بووه",
+          "de": "Bouvetinsel",
+          "es": "Isla Bouvet",
+          "fr": "Île Bouvet",
+          "ja": "ブーベ島",
+          "it": "Isola Bouvet",
+          "hu": "Bouvet-sziget"
+        },
+        "flag": "https://flagcdn.com/bv.svg",
+        "independent": false
+      },
+      {
+        "name": "Brazil",
+        "topLevelDomain": [
+          ".br"
+        ],
+        "alpha2Code": "BR",
+        "alpha3Code": "BRA",
+        "callingCodes": [
+          "55"
+        ],
+        "capital": "Brasília",
+        "altSpellings": [
+          "BR",
+          "Brasil",
+          "Federative Republic of Brazil",
+          "República Federativa do Brasil"
+        ],
+        "subregion": "South America",
+        "region": "Americas",
+        "population": 212559409,
+        "latlng": [
+          -10.0,
+          -55.0
+        ],
+        "demonym": "Brazilian",
+        "area": 8515767.0,
+        "gini": 53.4,
+        "timezones": [
+          "UTC-05:00",
+          "UTC-04:00",
+          "UTC-03:00",
+          "UTC-02:00"
+        ],
+        "borders": [
+          "ARG",
+          "BOL",
+          "COL",
+          "FRA",
+          "GUF",
+          "GUY",
+          "PRY",
+          "PER",
+          "SUR",
+          "URY",
+          "VEN"
+        ],
+        "nativeName": "Brasil",
+        "numericCode": "076",
+        "flags": {
+          "svg": "https://flagcdn.com/br.svg",
+          "png": "https://flagcdn.com/w320/br.png"
+        },
+        "currencies": [
+          {
+            "code": "BRL",
+            "name": "Brazilian real",
+            "symbol": "R$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "pt",
+            "iso639_2": "por",
+            "name": "Portuguese",
+            "nativeName": "Português"
+          }
+        ],
+        "translations": {
+          "br": "Brasil",
+          "pt": "Brasil",
+          "nl": "Brazilië",
+          "hr": "Brazil",
+          "fa": "برزیل",
+          "de": "Brasilien",
+          "es": "Brasil",
+          "fr": "Brésil",
+          "ja": "ブラジル",
+          "it": "Brasile",
+          "hu": "Brazília"
+        },
+        "flag": "https://flagcdn.com/br.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "USAN",
+            "name": "Union of South American Nations",
+            "otherAcronyms": [
+              "UNASUR",
+              "UNASUL",
+              "UZAN"
+            ],
+            "otherNames": [
+              "Unión de Naciones Suramericanas",
+              "União de Nações Sul-Americanas",
+              "Unie van Zuid-Amerikaanse Naties",
+              "South American Union"
+            ]
+          }
+        ],
+        "cioc": "BRA",
+        "independent": true
+      },
+      {
+        "name": "British Indian Ocean Territory",
+        "topLevelDomain": [
+          ".io"
+        ],
+        "alpha2Code": "IO",
+        "alpha3Code": "IOT",
+        "callingCodes": [
+          "246"
+        ],
+        "capital": "Diego Garcia",
+        "altSpellings": [
+          "IO"
+        ],
+        "subregion": "Eastern Africa",
+        "region": "Africa",
+        "population": 3000,
+        "latlng": [
+          -6.0,
+          71.5
+        ],
+        "demonym": "Indian",
+        "area": 60.0,
+        "timezones": [
+          "UTC+06:00"
+        ],
+        "nativeName": "British Indian Ocean Territory",
+        "numericCode": "086",
+        "flags": {
+          "svg": "https://flagcdn.com/io.svg",
+          "png": "https://flagcdn.com/w320/io.png"
+        },
+        "currencies": [
+          {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Território Britânico do Oceano íÍdico",
+          "pt": "Território Britânico do Oceano Índico",
+          "nl": "Britse Gebieden in de Indische Oceaan",
+          "hr": "Britanski Indijskooceanski teritorij",
+          "fa": "قلمرو بریتانیا در اقیانوس هند",
+          "de": "Britisches Territorium im Indischen Ozean",
+          "es": "Territorio Británico del Océano Índico",
+          "fr": "Territoire britannique de l'océan Indien",
+          "ja": "イギリス領インド洋地域",
+          "it": "Territorio britannico dell'oceano indiano",
+          "hu": "Brit Indiai-óceáni Terület"
+        },
+        "flag": "https://flagcdn.com/io.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "African Union",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "independent": true
+      },
+      {
+        "name": "Saint Vincent and the Grenadines",
+        "topLevelDomain": [
+          ".vc"
+        ],
+        "alpha2Code": "VC",
+        "alpha3Code": "VCT",
+        "callingCodes": [
+          "1"
+        ],
+        "capital": "Kingstown",
+        "altSpellings": [
+          "VC"
+        ],
+        "subregion": "Caribbean",
+        "region": "Americas",
+        "population": 110947,
+        "latlng": [
+          13.25,
+          -61.2
+        ],
+        "demonym": "Saint Vincentian",
+        "area": 389.0,
+        "timezones": [
+          "UTC-04:00"
+        ],
+        "nativeName": "Saint Vincent and the Grenadines",
+        "numericCode": "670",
+        "flags": {
+          "svg": "https://flagcdn.com/vc.svg",
+          "png": "https://flagcdn.com/w320/vc.png"
+        },
+        "currencies": [
+          {
+            "code": "XCD",
+            "name": "East Caribbean dollar",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "São Vicente e Granadinas",
+          "pt": "São Vicente e Granadinas",
+          "nl": "Saint Vincent en de Grenadines",
+          "hr": "Sveti Vincent i Grenadini",
+          "fa": "سنت وینسنت و گرنادین‌ها",
+          "de": "Saint Vincent und die Grenadinen",
+          "es": "San Vicente y Granadinas",
+          "fr": "Saint-Vincent-et-les-Grenadines",
+          "ja": "セントビンセントおよびグレナディーン諸島",
+          "it": "Saint Vincent e Grenadine",
+          "hu": "Saint Vincent és a Grenadine-szigetek"
+        },
+        "flag": "https://flagcdn.com/vc.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "CARICOM",
+            "name": "Caribbean Community",
+            "otherNames": [
+              "Comunidad del Caribe",
+              "Communauté Caribéenne",
+              "Caribische Gemeenschap"
+            ]
+          }
+        ],
+        "cioc": "VIN",
+        "independent": true
+      },
+      {
+        "name": "Samoa",
+        "topLevelDomain": [
+          ".ws"
+        ],
+        "alpha2Code": "WS",
+        "alpha3Code": "WSM",
+        "callingCodes": [
+          "685"
+        ],
+        "capital": "Apia",
+        "altSpellings": [
+          "WS",
+          "Independent State of Samoa",
+          "Malo Saʻoloto Tutoʻatasi o Sāmoa"
+        ],
+        "subregion": "Polynesia",
+        "region": "Oceania",
+        "population": 198410,
+        "latlng": [
+          -13.58333333,
+          -172.33333333
+        ],
+        "demonym": "Samoan",
+        "area": 2842.0,
+        "gini": 38.7,
+        "timezones": [
+          "UTC+13:00"
+        ],
+        "nativeName": "Samoa",
+        "numericCode": "882",
+        "flags": {
+          "svg": "https://flagcdn.com/ws.svg",
+          "png": "https://flagcdn.com/w320/ws.png"
+        },
+        "currencies": [
+          {
+            "code": "WST",
+            "name": "Samoan tālā",
+            "symbol": "T"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "sm",
+            "iso639_2": "smo",
+            "name": "Samoan",
+            "nativeName": "gagana fa'a Samoa"
+          },
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Samoa",
+          "pt": "Samoa",
+          "nl": "Samoa",
+          "hr": "Samoa",
+          "fa": "ساموآ",
+          "de": "Samoa",
+          "es": "Samoa",
+          "fr": "Samoa",
+          "ja": "サモア",
+          "it": "Samoa",
+          "hu": "Szamoa"
+        },
+        "flag": "https://flagcdn.com/ws.svg",
+        "cioc": "SAM",
+        "independent": true
+      },
+      {
+        "name": "San Marino",
+        "topLevelDomain": [
+          ".sm"
+        ],
+        "alpha2Code": "SM",
+        "alpha3Code": "SMR",
+        "callingCodes": [
+          "378"
+        ],
+        "capital": "City of San Marino",
+        "altSpellings": [
+          "SM",
+          "Republic of San Marino",
+          "Repubblica di San Marino"
+        ],
+        "subregion": "Southern Europe",
+        "region": "Europe",
+        "population": 33938,
+        "latlng": [
+          43.76666666,
+          12.41666666
+        ],
+        "demonym": "Sammarinese",
+        "area": 61.0,
+        "timezones": [
+          "UTC+01:00"
+        ],
+        "borders": [
+          "ITA"
+        ],
+        "nativeName": "San Marino",
+        "numericCode": "674",
+        "flags": {
+          "svg": "https://flagcdn.com/sm.svg",
+          "png": "https://flagcdn.com/w320/sm.png"
+        },
+        "currencies": [
+          {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "it",
+            "iso639_2": "ita",
+            "name": "Italian",
+            "nativeName": "Italiano"
+          }
+        ],
+        "translations": {
+          "br": "San Marino",
+          "pt": "São Marinho",
+          "nl": "San Marino",
+          "hr": "San Marino",
+          "fa": "سان مارینو",
+          "de": "San Marino",
+          "es": "San Marino",
+          "fr": "Saint-Marin",
+          "ja": "サンマリノ",
+          "it": "San Marino",
+          "hu": "San Marino"
+        },
+        "flag": "https://flagcdn.com/sm.svg",
+        "cioc": "SMR",
+        "independent": true
+      },
+      {
+        "name": "Sao Tome and Principe",
+        "topLevelDomain": [
+          ".st"
+        ],
+        "alpha2Code": "ST",
+        "alpha3Code": "STP",
+        "callingCodes": [
+          "239"
+        ],
+        "capital": "São Tomé",
+        "altSpellings": [
+          "ST",
+          "Democratic Republic of São Tomé and Príncipe",
+          "República Democrática de São Tomé e Príncipe"
+        ],
+        "subregion": "Middle Africa",
+        "region": "Africa",
+        "population": 219161,
+        "latlng": [
+          1.0,
+          7.0
+        ],
+        "demonym": "Sao Tomean",
+        "area": 964.0,
+        "gini": 56.3,
+        "timezones": [
+          "UTC"
+        ],
+        "nativeName": "São Tomé e Príncipe",
+        "numericCode": "678",
+        "flags": {
+          "svg": "https://flagcdn.com/st.svg",
+          "png": "https://flagcdn.com/w320/st.png"
+        },
+        "currencies": [
+          {
+            "code": "STD",
+            "name": "São Tomé and Príncipe dobra",
+            "symbol": "Db"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "pt",
+            "iso639_2": "por",
+            "name": "Portuguese",
+            "nativeName": "Português"
+          }
+        ],
+        "translations": {
+          "br": "São Tomé e Príncipe",
+          "pt": "São Tomé e Príncipe",
+          "nl": "Sao Tomé en Principe",
+          "hr": "Sveti Toma i Princip",
+          "fa": "کواترو دو فرویرو",
+          "de": "São Tomé und Príncipe",
+          "es": "Santo Tomé y Príncipe",
+          "fr": "Sao Tomé-et-Principe",
+          "ja": "サントメ・プリンシペ",
+          "it": "São Tomé e Príncipe",
+          "hu": "São Tomé és Príncipe"
+        },
+        "flag": "https://flagcdn.com/st.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "African Union",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "cioc": "STP",
+        "independent": true
+      },
+      {
+        "name": "Saudi Arabia",
+        "topLevelDomain": [
+          ".sa"
+        ],
+        "alpha2Code": "SA",
+        "alpha3Code": "SAU",
+        "callingCodes": [
+          "966"
+        ],
+        "capital": "Riyadh",
+        "altSpellings": [
+          "SA",
+          "Kingdom of Saudi Arabia",
+          "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah"
+        ],
+        "subregion": "Western Asia",
+        "region": "Asia",
+        "population": 34813867,
+        "latlng": [
+          25.0,
+          45.0
+        ],
+        "demonym": "Saudi Arabian",
+        "area": 2149690.0,
+        "timezones": [
+          "UTC+03:00"
+        ],
+        "borders": [
+          "IRQ",
+          "JOR",
+          "KWT",
+          "OMN",
+          "QAT",
+          "ARE",
+          "YEM"
+        ],
+        "nativeName": "العربية السعودية",
+        "numericCode": "682",
+        "flags": {
+          "svg": "https://flagcdn.com/sa.svg",
+          "png": "https://flagcdn.com/w320/sa.png"
+        },
+        "currencies": [
+          {
+            "code": "SAR",
+            "name": "Saudi riyal",
+            "symbol": "ر.س"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "ar",
+            "iso639_2": "ara",
+            "name": "Arabic",
+            "nativeName": "العربية"
+          }
+        ],
+        "translations": {
+          "br": "Arábia Saudita",
+          "pt": "Arábia Saudita",
+          "nl": "Saoedi-Arabië",
+          "hr": "Saudijska Arabija",
+          "fa": "عربستان سعودی",
+          "de": "Saudi-Arabien",
+          "es": "Arabia Saudí",
+          "fr": "Arabie Saoudite",
+          "ja": "サウジアラビア",
+          "it": "Arabia Saudita",
+          "hu": "Szaúd-Arábia"
+        },
+        "flag": "https://flagcdn.com/sa.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AL",
+            "name": "Arab League",
+            "otherNames": [
+              "جامعة الدول العربية",
+              "Jāmiʻat ad-Duwal al-ʻArabīyah",
+              "League of Arab States"
+            ]
+          }
+        ],
+        "cioc": "KSA",
+        "independent": true
+      },
+      {
+        "name": "Senegal",
+        "topLevelDomain": [
+          ".sn"
+        ],
+        "alpha2Code": "SN",
+        "alpha3Code": "SEN",
+        "callingCodes": [
+          "221"
+        ],
+        "capital": "Dakar",
+        "altSpellings": [
+          "SN",
+          "Republic of Senegal",
+          "République du Sénégal"
+        ],
+        "subregion": "Western Africa",
+        "region": "Africa",
+        "population": 16743930,
+        "latlng": [
+          14.0,
+          -14.0
+        ],
+        "demonym": "Senegalese",
+        "area": 196722.0,
+        "gini": 40.3,
+        "timezones": [
+          "UTC"
+        ],
+        "borders": [
+          "GMB",
+          "GIN",
+          "GNB",
+          "MLI",
+          "MRT"
+        ],
+        "nativeName": "Sénégal",
+        "numericCode": "686",
+        "flags": {
+          "svg": "https://flagcdn.com/sn.svg",
+          "png": "https://flagcdn.com/w320/sn.png"
+        },
+        "currencies": [
+          {
+            "code": "XOF",
+            "name": "West African CFA franc",
+            "symbol": "Fr"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "fr",
+            "iso639_2": "fra",
+            "name": "French",
+            "nativeName": "français"
+          }
+        ],
+        "translations": {
+          "br": "Senegal",
+          "pt": "Senegal",
+          "nl": "Senegal",
+          "hr": "Senegal",
+          "fa": "سنگال",
+          "de": "Senegal",
+          "es": "Senegal",
+          "fr": "Sénégal",
+          "ja": "セネガル",
+          "it": "Senegal",
+          "hu": "Szenegál"
+        },
+        "flag": "https://flagcdn.com/sn.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "African Union",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "cioc": "SEN",
+        "independent": true
+      },
+      {
+        "name": "Serbia",
+        "topLevelDomain": [
+          ".rs"
+        ],
+        "alpha2Code": "RS",
+        "alpha3Code": "SRB",
+        "callingCodes": [
+          "381"
+        ],
+        "capital": "Belgrade",
+        "altSpellings": [
+          "RS",
+          "Srbija",
+          "Republic of Serbia",
+          "Република Србија",
+          "Republika Srbija"
+        ],
+        "subregion": "Southern Europe",
+        "region": "Europe",
+        "population": 6908224,
+        "latlng": [
+          44.0,
+          21.0
+        ],
+        "demonym": "Serbian",
+        "area": 88361.0,
+        "gini": 36.2,
+        "timezones": [
+          "UTC+01:00"
+        ],
+        "borders": [
+          "BIH",
+          "BGR",
+          "HRV",
+          "HUN",
+          "UNK",
+          "MKD",
+          "MNE",
+          "ROU"
+        ],
+        "nativeName": "Србија",
+        "numericCode": "688",
+        "flags": {
+          "svg": "https://flagcdn.com/rs.svg",
+          "png": "https://flagcdn.com/w320/rs.png"
+        },
+        "currencies": [
+          {
+            "code": "RSD",
+            "name": "Serbian dinar",
+            "symbol": "дин."
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "sr",
+            "iso639_2": "srp",
+            "name": "Serbian",
+            "nativeName": "српски језик"
+          }
+        ],
+        "translations": {
+          "br": "Sérvia",
+          "pt": "Sérvia",
+          "nl": "Servië",
+          "hr": "Srbija",
+          "fa": "صربستان",
+          "de": "Serbien",
+          "es": "Serbia",
+          "fr": "Serbie",
+          "ja": "セルビア",
+          "it": "Serbia",
+          "hu": "Szerbia"
+        },
+        "flag": "https://flagcdn.com/rs.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "CEFTA",
+            "name": "Central European Free Trade Agreement"
+          }
+        ],
+        "cioc": "SRB",
+        "independent": true
+      },
+      {
+        "name": "Seychelles",
+        "topLevelDomain": [
+          ".sc"
+        ],
+        "alpha2Code": "SC",
+        "alpha3Code": "SYC",
+        "callingCodes": [
+          "248"
+        ],
+        "capital": "Victoria",
+        "altSpellings": [
+          "SC",
+          "Republic of Seychelles",
+          "Repiblik Sesel",
+          "République des Seychelles"
+        ],
+        "subregion": "Eastern Africa",
+        "region": "Africa",
+        "population": 98462,
+        "latlng": [
+          -4.58333333,
+          55.66666666
+        ],
+        "demonym": "Seychellois",
+        "area": 452.0,
+        "gini": 32.1,
+        "timezones": [
+          "UTC+04:00"
+        ],
+        "nativeName": "Seychelles",
+        "numericCode": "690",
+        "flags": {
+          "svg": "https://flagcdn.com/sc.svg",
+          "png": "https://flagcdn.com/w320/sc.png"
+        },
+        "currencies": [
+          {
+            "code": "SCR",
+            "name": "Seychellois rupee",
+            "symbol": "₨"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "fr",
+            "iso639_2": "fra",
+            "name": "French",
+            "nativeName": "français"
+          },
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Seicheles",
+          "pt": "Seicheles",
+          "nl": "Seychellen",
+          "hr": "Sejšeli",
+          "fa": "سیشل",
+          "de": "Seychellen",
+          "es": "Seychelles",
+          "fr": "Seychelles",
+          "ja": "セーシェル",
+          "it": "Seychelles",
+          "hu": "Seychelle-szigetek"
+        },
+        "flag": "https://flagcdn.com/sc.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "African Union",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "cioc": "SEY",
+        "independent": true
+      },
+      {
+        "name": "Sierra Leone",
+        "topLevelDomain": [
+          ".sl"
+        ],
+        "alpha2Code": "SL",
+        "alpha3Code": "SLE",
+        "callingCodes": [
+          "232"
+        ],
+        "capital": "Freetown",
+        "altSpellings": [
+          "SL",
+          "Republic of Sierra Leone"
+        ],
+        "subregion": "Western Africa",
+        "region": "Africa",
+        "population": 7976985,
+        "latlng": [
+          8.5,
+          -11.5
+        ],
+        "demonym": "Sierra Leonean",
+        "area": 71740.0,
+        "gini": 35.7,
+        "timezones": [
+          "UTC"
+        ],
+        "borders": [
+          "GIN",
+          "LBR"
+        ],
+        "nativeName": "Sierra Leone",
+        "numericCode": "694",
+        "flags": {
+          "svg": "https://flagcdn.com/sl.svg",
+          "png": "https://flagcdn.com/w320/sl.png"
+        },
+        "currencies": [
+          {
+            "code": "SLL",
+            "name": "Sierra Leonean leone",
+            "symbol": "Le"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Serra Leoa",
+          "pt": "Serra Leoa",
+          "nl": "Sierra Leone",
+          "hr": "Sijera Leone",
+          "fa": "سیرالئون",
+          "de": "Sierra Leone",
+          "es": "Sierra Leone",
+          "fr": "Sierra Leone",
+          "ja": "シエラレオネ",
+          "it": "Sierra Leone",
+          "hu": "Sierra Leone"
+        },
+        "flag": "https://flagcdn.com/sl.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "African Union",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "cioc": "SLE",
+        "independent": true
+      },
+      {
+        "name": "Singapore",
+        "topLevelDomain": [
+          ".sg"
+        ],
+        "alpha2Code": "SG",
+        "alpha3Code": "SGP",
+        "callingCodes": [
+          "65"
+        ],
+        "capital": "Singapore",
+        "altSpellings": [
+          "SG",
+          "Singapura",
+          "Republik Singapura",
+          "新加坡共和国"
+        ],
+        "subregion": "South-Eastern Asia",
+        "region": "Asia",
+        "population": 5685807,
+        "latlng": [
+          1.36666666,
+          103.8
+        ],
+        "demonym": "Singaporean",
+        "area": 710.0,
+        "timezones": [
+          "UTC+08:00"
+        ],
+        "nativeName": "Singapore",
+        "numericCode": "702",
+        "flags": {
+          "svg": "https://flagcdn.com/sg.svg",
+          "png": "https://flagcdn.com/w320/sg.png"
+        },
+        "currencies": [
+          {
+            "code": "BND",
+            "name": "Brunei dollar",
+            "symbol": "$"
+          },
+          {
+            "code": "SGD",
+            "name": "Singapore dollar",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          },
+          {
+            "iso639_1": "ms",
+            "iso639_2": "msa",
+            "name": "Malay",
+            "nativeName": "bahasa Melayu"
+          },
+          {
+            "iso639_1": "ta",
+            "iso639_2": "tam",
+            "name": "Tamil",
+            "nativeName": "தமிழ்"
+          },
+          {
+            "iso639_1": "zh",
+            "iso639_2": "zho",
+            "name": "Chinese",
+            "nativeName": "中文 (Zhōngwén)"
+          }
+        ],
+        "translations": {
+          "br": "Singapura",
+          "pt": "Singapura",
+          "nl": "Singapore",
+          "hr": "Singapur",
+          "fa": "سنگاپور",
+          "de": "Singapur",
+          "es": "Singapur",
+          "fr": "Singapour",
+          "ja": "シンガポール",
+          "it": "Singapore",
+          "hu": "Szingapúr"
+        },
+        "flag": "https://flagcdn.com/sg.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "ASEAN",
+            "name": "Association of Southeast Asian Nations"
+          }
+        ],
+        "cioc": "SIN",
+        "independent": true
+      },
+      {
+        "name": "Sint Maarten (Dutch part)",
+        "topLevelDomain": [
+          ".sx"
+        ],
+        "alpha2Code": "SX",
+        "alpha3Code": "SXM",
+        "callingCodes": [
+          "1"
+        ],
+        "capital": "Philipsburg",
+        "altSpellings": [
+          "SX"
+        ],
+        "subregion": "Caribbean",
+        "region": "Americas",
+        "population": 40812,
+        "latlng": [
+          18.033333,
+          -63.05
+        ],
+        "demonym": "Dutch",
+        "area": 34.0,
+        "timezones": [
+          "UTC-04:00"
+        ],
+        "borders": [
+          "MAF"
+        ],
+        "nativeName": "Sint Maarten",
+        "numericCode": "534",
+        "flags": {
+          "svg": "https://flagcdn.com/sx.svg",
+          "png": "https://flagcdn.com/w320/sx.png"
+        },
+        "currencies": [
+          {
+            "code": "ANG",
+            "name": "Netherlands Antillean guilder",
+            "symbol": "ƒ"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "nl",
+            "iso639_2": "nld",
+            "name": "Dutch",
+            "nativeName": "Nederlands"
+          },
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Sint Maarten",
+          "pt": "São Martinho",
+          "nl": "Sint Maarten",
+          "hr": "Sint Maarten (Dutch part)",
+          "fa": "سینت مارتن",
+          "de": "Sint Maarten (niederl. Teil)",
+          "es": "Sint Maarten (Dutch part)",
+          "fr": "Saint Martin (partie néerlandaise)",
+          "ja": "Sint Maarten (Dutch part)",
+          "it": "Saint Martin (parte olandese)",
+          "hu": "Sint Maarten"
+        },
+        "flag": "https://flagcdn.com/sx.svg",
+        "independent": false
+      },
+      {
+        "name": "Slovakia",
+        "topLevelDomain": [
+          ".sk"
+        ],
+        "alpha2Code": "SK",
+        "alpha3Code": "SVK",
+        "callingCodes": [
+          "421"
+        ],
+        "capital": "Bratislava",
+        "altSpellings": [
+          "SK",
+          "Slovak Republic",
+          "Slovenská republika"
+        ],
+        "subregion": "Central Europe",
+        "region": "Europe",
+        "population": 5458827,
+        "latlng": [
+          48.66666666,
+          19.5
+        ],
+        "demonym": "Slovak",
+        "area": 49037.0,
+        "gini": 25.0,
+        "timezones": [
+          "UTC+01:00"
+        ],
+        "borders": [
+          "AUT",
+          "CZE",
+          "HUN",
+          "POL",
+          "UKR"
+        ],
+        "nativeName": "Slovensko",
+        "numericCode": "703",
+        "flags": {
+          "svg": "https://flagcdn.com/sk.svg",
+          "png": "https://flagcdn.com/w320/sk.png"
+        },
+        "currencies": [
+          {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "sk",
+            "iso639_2": "slk",
+            "name": "Slovak",
+            "nativeName": "slovenčina"
+          }
+        ],
+        "translations": {
+          "br": "Eslováquia",
+          "pt": "Eslováquia",
+          "nl": "Slowakije",
+          "hr": "Slovačka",
+          "fa": "اسلواکی",
+          "de": "Slowakei",
+          "es": "República Eslovaca",
+          "fr": "Slovaquie",
+          "ja": "スロバキア",
+          "it": "Slovacchia",
+          "hu": "Szlovákia"
+        },
+        "flag": "https://flagcdn.com/sk.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EU",
+            "name": "European Union"
+          }
+        ],
+        "cioc": "SVK",
+        "independent": true
+      },
+      {
+        "name": "Slovenia",
+        "topLevelDomain": [
+          ".si"
+        ],
+        "alpha2Code": "SI",
+        "alpha3Code": "SVN",
+        "callingCodes": [
+          "386"
+        ],
+        "capital": "Ljubljana",
+        "altSpellings": [
+          "SI",
+          "Republic of Slovenia",
+          "Republika Slovenija"
+        ],
+        "subregion": "Southern Europe",
+        "region": "Europe",
+        "population": 2100126,
+        "latlng": [
+          46.11666666,
+          14.81666666
+        ],
+        "demonym": "Slovene",
+        "area": 20273.0,
+        "gini": 24.6,
+        "timezones": [
+          "UTC+01:00"
+        ],
+        "borders": [
+          "AUT",
+          "HRV",
+          "ITA",
+          "HUN"
+        ],
+        "nativeName": "Slovenija",
+        "numericCode": "705",
+        "flags": {
+          "svg": "https://flagcdn.com/si.svg",
+          "png": "https://flagcdn.com/w320/si.png"
+        },
+        "currencies": [
+          {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "sl",
+            "iso639_2": "slv",
+            "name": "Slovene",
+            "nativeName": "slovenski jezik"
+          }
+        ],
+        "translations": {
+          "br": "Eslovênia",
+          "pt": "Eslovénia",
+          "nl": "Slovenië",
+          "hr": "Slovenija",
+          "fa": "اسلوونی",
+          "de": "Slowenien",
+          "es": "Eslovenia",
+          "fr": "Slovénie",
+          "ja": "スロベニア",
+          "it": "Slovenia",
+          "hu": "Szlovénia"
+        },
+        "flag": "https://flagcdn.com/si.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EU",
+            "name": "European Union"
+          }
+        ],
+        "cioc": "SLO",
+        "independent": true
+      },
+      {
+        "name": "Solomon Islands",
+        "topLevelDomain": [
+          ".sb"
+        ],
+        "alpha2Code": "SB",
+        "alpha3Code": "SLB",
+        "callingCodes": [
+          "677"
+        ],
+        "capital": "Honiara",
+        "altSpellings": [
+          "SB"
+        ],
+        "subregion": "Melanesia",
+        "region": "Oceania",
+        "population": 686878,
+        "latlng": [
+          -8.0,
+          159.0
+        ],
+        "demonym": "Solomon Islander",
+        "area": 28896.0,
+        "gini": 37.1,
+        "timezones": [
+          "UTC+11:00"
+        ],
+        "nativeName": "Solomon Islands",
+        "numericCode": "090",
+        "flags": {
+          "svg": "https://flagcdn.com/sb.svg",
+          "png": "https://flagcdn.com/w320/sb.png"
+        },
+        "currencies": [
+          {
+            "code": "SBD",
+            "name": "Solomon Islands dollar",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Ilhas Salomão",
+          "pt": "Ilhas Salomão",
+          "nl": "Salomonseilanden",
+          "hr": "Solomonski Otoci",
+          "fa": "جزایر سلیمان",
+          "de": "Salomonen",
+          "es": "Islas Salomón",
+          "fr": "Îles Salomon",
+          "ja": "ソロモン諸島",
+          "it": "Isole Salomone",
+          "hu": "Salamon-szigetek"
+        },
+        "flag": "https://flagcdn.com/sb.svg",
+        "cioc": "SOL",
+        "independent": true
+      },
+      {
+        "name": "Somalia",
+        "topLevelDomain": [
+          ".so"
+        ],
+        "alpha2Code": "SO",
+        "alpha3Code": "SOM",
+        "callingCodes": [
+          "252"
+        ],
+        "capital": "Mogadishu",
+        "altSpellings": [
+          "SO",
+          "aṣ-Ṣūmāl",
+          "Federal Republic of Somalia",
+          "Jamhuuriyadda Federaalka Soomaaliya",
+          "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya"
+        ],
+        "subregion": "Eastern Africa",
+        "region": "Africa",
+        "population": 15893219,
+        "latlng": [
+          10.0,
+          49.0
+        ],
+        "demonym": "Somali",
+        "area": 637657.0,
+        "gini": 36.8,
+        "timezones": [
+          "UTC+03:00"
+        ],
+        "borders": [
+          "DJI",
+          "ETH",
+          "KEN"
+        ],
+        "nativeName": "Soomaaliya",
+        "numericCode": "706",
+        "flags": {
+          "svg": "https://flagcdn.com/so.svg",
+          "png": "https://flagcdn.com/w320/so.png"
+        },
+        "currencies": [
+          {
+            "code": "SOS",
+            "name": "Somali shilling",
+            "symbol": "Sh"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "so",
+            "iso639_2": "som",
+            "name": "Somali",
+            "nativeName": "Soomaaliga"
+          },
+          {
+            "iso639_1": "ar",
+            "iso639_2": "ara",
+            "name": "Arabic",
+            "nativeName": "العربية"
+          }
+        ],
+        "translations": {
+          "br": "Somália",
+          "pt": "Somália",
+          "nl": "Somalië",
+          "hr": "Somalija",
+          "fa": "سومالی",
+          "de": "Somalia",
+          "es": "Somalia",
+          "fr": "Somalie",
+          "ja": "ソマリア",
+          "it": "Somalia",
+          "hu": "Szomália"
+        },
+        "flag": "https://flagcdn.com/so.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "African Union",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          },
+          {
+            "acronym": "AL",
+            "name": "Arab League",
+            "otherNames": [
+              "جامعة الدول العربية",
+              "Jāmiʻat ad-Duwal al-ʻArabīyah",
+              "League of Arab States"
+            ]
+          }
+        ],
+        "cioc": "SOM",
+        "independent": true
+      },
+      {
+        "name": "South Africa",
+        "topLevelDomain": [
+          ".za"
+        ],
+        "alpha2Code": "ZA",
+        "alpha3Code": "ZAF",
+        "callingCodes": [
+          "27"
+        ],
+        "capital": "Pretoria",
+        "altSpellings": [
+          "ZA",
+          "RSA",
+          "Suid-Afrika",
+          "Republic of South Africa"
+        ],
+        "subregion": "Southern Africa",
+        "region": "Africa",
+        "population": 59308690,
+        "latlng": [
+          -29.0,
+          24.0
+        ],
+        "demonym": "South African",
+        "area": 1221037.0,
+        "gini": 63.0,
+        "timezones": [
+          "UTC+02:00"
+        ],
+        "borders": [
+          "BWA",
+          "LSO",
+          "MOZ",
+          "NAM",
+          "SWZ",
+          "ZWE"
+        ],
+        "nativeName": "South Africa",
+        "numericCode": "710",
+        "flags": {
+          "svg": "https://flagcdn.com/za.svg",
+          "png": "https://flagcdn.com/w320/za.png"
+        },
+        "currencies": [
+          {
+            "code": "ZAR",
+            "name": "South African rand",
+            "symbol": "R"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "af",
+            "iso639_2": "afr",
+            "name": "Afrikaans",
+            "nativeName": "Afrikaans"
+          },
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          },
+          {
+            "iso639_1": "nr",
+            "iso639_2": "nbl",
+            "name": "Southern Ndebele",
+            "nativeName": "isiNdebele"
+          },
+          {
+            "iso639_1": "st",
+            "iso639_2": "sot",
+            "name": "Southern Sotho",
+            "nativeName": "Sesotho"
+          },
+          {
+            "iso639_1": "ss",
+            "iso639_2": "ssw",
+            "name": "Swati",
+            "nativeName": "SiSwati"
+          },
+          {
+            "iso639_1": "tn",
+            "iso639_2": "tsn",
+            "name": "Tswana",
+            "nativeName": "Setswana"
+          },
+          {
+            "iso639_1": "ts",
+            "iso639_2": "tso",
+            "name": "Tsonga",
+            "nativeName": "Xitsonga"
+          },
+          {
+            "iso639_1": "ve",
+            "iso639_2": "ven",
+            "name": "Venda",
+            "nativeName": "Tshivenḓa"
+          },
+          {
+            "iso639_1": "xh",
+            "iso639_2": "xho",
+            "name": "Xhosa",
+            "nativeName": "isiXhosa"
+          },
+          {
+            "iso639_1": "zu",
+            "iso639_2": "zul",
+            "name": "Zulu",
+            "nativeName": "isiZulu"
+          }
+        ],
+        "translations": {
+          "br": "República Sul-Africana",
+          "pt": "República Sul-Africana",
+          "nl": "Zuid-Afrika",
+          "hr": "Južnoafrička Republika",
+          "fa": "آفریقای جنوبی",
+          "de": "Republik Südafrika",
+          "es": "República de Sudáfrica",
+          "fr": "Afrique du Sud",
+          "ja": "南アフリカ",
+          "it": "Sud Africa",
+          "hu": "Dél-afrikai Köztársaság"
+        },
+        "flag": "https://flagcdn.com/za.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "African Union",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "cioc": "RSA",
+        "independent": true
+      },
+      {
+        "name": "South Georgia and the South Sandwich Islands",
+        "topLevelDomain": [
+          ".gs"
+        ],
+        "alpha2Code": "GS",
+        "alpha3Code": "SGS",
+        "callingCodes": [
+          "500"
+        ],
+        "capital": "King Edward Point",
+        "altSpellings": [
+          "GS",
+          "South Georgia and the South Sandwich Islands"
+        ],
+        "subregion": "South America",
+        "region": "Americas",
+        "population": 30,
+        "latlng": [
+          -54.5,
+          -37.0
+        ],
+        "demonym": "South Georgia and the South Sandwich Islander",
+        "timezones": [
+          "UTC-02:00"
+        ],
+        "nativeName": "South Georgia",
+        "numericCode": "239",
+        "flags": {
+          "svg": "https://flagcdn.com/gs.svg",
+          "png": "https://flagcdn.com/w320/gs.png"
+        },
+        "currencies": [
+          {
+            "code": "FKP",
+            "name": "Falkland Islands Pound",
+            "symbol": "£"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Ilhas Geórgias do Sul e Sandwich do Sul",
+          "pt": "Ilhas Geórgia do Sul e Sanduíche do Sul",
+          "nl": "Zuid-Georgia en Zuidelijke Sandwicheilanden",
+          "hr": "Južna Georgija i otočje Južni Sandwich",
+          "fa": "جزایر جورجیای جنوبی و ساندویچ جنوبی",
+          "de": "Südgeorgien und die Südlichen Sandwichinseln",
+          "es": "Islas Georgias del Sur y Sandwich del Sur",
+          "fr": "Géorgie du Sud-et-les Îles Sandwich du Sud",
+          "ja": "サウスジョージア・サウスサンドウィッチ諸島",
+          "it": "Georgia del Sud e Isole Sandwich Meridionali",
+          "hu": "Díli-Georgia ís Díli-Sandwich-szigetek"
+        },
+        "flag": "https://flagcdn.com/gs.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "USAN",
+            "name": "Union of South American Nations",
+            "otherAcronyms": [
+              "UNASUR",
+              "UNASUL",
+              "UZAN"
+            ],
+            "otherNames": [
+              "Unión de Naciones Suramericanas",
+              "União de Nações Sul-Americanas",
+              "Unie van Zuid-Amerikaanse Naties",
+              "South American Union"
+            ]
+          }
+        ],
+        "independent": false
+      },
+      {
+        "name": "Korea (Republic of)",
+        "topLevelDomain": [
+          ".kr"
+        ],
+        "alpha2Code": "KR",
+        "alpha3Code": "KOR",
+        "callingCodes": [
+          "82"
+        ],
+        "capital": "Seoul",
+        "altSpellings": [
+          "KR",
+          "Republic of Korea"
+        ],
+        "subregion": "Eastern Asia",
+        "region": "Asia",
+        "population": 51780579,
+        "latlng": [
+          37.0,
+          127.5
+        ],
+        "demonym": "South Korean",
+        "area": 100210.0,
+        "gini": 31.4,
+        "timezones": [
+          "UTC+09:00"
+        ],
+        "borders": [
+          "PRK"
+        ],
+        "nativeName": "대한민국",
+        "numericCode": "410",
+        "flags": {
+          "svg": "https://flagcdn.com/kr.svg",
+          "png": "https://flagcdn.com/w320/kr.png"
+        },
+        "currencies": [
+          {
+            "code": "KRW",
+            "name": "South Korean won",
+            "symbol": "₩"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "ko",
+            "iso639_2": "kor",
+            "name": "Korean",
+            "nativeName": "한국어"
+          }
+        ],
+        "translations": {
+          "br": "Coreia do Sul",
+          "pt": "Coreia do Sul",
+          "nl": "Zuid-Korea",
+          "hr": "Južna Koreja",
+          "fa": "کره شمالی",
+          "de": "Südkorea",
+          "es": "Corea del Sur",
+          "fr": "Corée du Sud",
+          "ja": "大韓民国",
+          "it": "Corea del Sud",
+          "hu": "Díl-Korea"
+        },
+        "flag": "https://flagcdn.com/kr.svg",
+        "cioc": "KOR",
+        "independent": true
+      },
+      {
+        "name": "Spain",
+        "topLevelDomain": [
+          ".es"
+        ],
+        "alpha2Code": "ES",
+        "alpha3Code": "ESP",
+        "callingCodes": [
+          "34"
+        ],
+        "capital": "Madrid",
+        "altSpellings": [
+          "ES",
+          "Kingdom of Spain",
+          "Reino de España"
+        ],
+        "subregion": "Southern Europe",
+        "region": "Europe",
+        "population": 47351567,
+        "latlng": [
+          40.0,
+          -4.0
+        ],
+        "demonym": "Spanish",
+        "area": 505992.0,
+        "gini": 34.7,
+        "timezones": [
+          "UTC",
+          "UTC+01:00"
+        ],
+        "borders": [
+          "AND",
+          "FRA",
+          "GIB",
+          "PRT",
+          "MAR"
+        ],
+        "nativeName": "España",
+        "numericCode": "724",
+        "flags": {
+          "svg": "https://flagcdn.com/es.svg",
+          "png": "https://flagcdn.com/w320/es.png"
+        },
+        "currencies": [
+          {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "es",
+            "iso639_2": "spa",
+            "name": "Spanish",
+            "nativeName": "Español"
+          }
+        ],
+        "translations": {
+          "br": "Espanha",
+          "pt": "Espanha",
+          "nl": "Spanje",
+          "hr": "Španjolska",
+          "fa": "اسپانیا",
+          "de": "Spanien",
+          "es": "España",
+          "fr": "Espagne",
+          "ja": "スペイン",
+          "it": "Spagna",
+          "hu": "Spanyolország"
+        },
+        "flag": "https://flagcdn.com/es.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EU",
+            "name": "European Union"
+          }
+        ],
+        "cioc": "ESP",
+        "independent": true
+      },
+      {
+        "name": "Sri Lanka",
+        "topLevelDomain": [
+          ".lk"
+        ],
+        "alpha2Code": "LK",
+        "alpha3Code": "LKA",
+        "callingCodes": [
+          "94"
+        ],
+        "capital": "Sri Jayawardenepura Kotte",
+        "altSpellings": [
+          "LK",
+          "ilaṅkai",
+          "Democratic Socialist Republic of Sri Lanka"
+        ],
+        "subregion": "Southern Asia",
+        "region": "Asia",
+        "population": 21919000,
+        "latlng": [
+          7.0,
+          81.0
+        ],
+        "demonym": "Sri Lankan",
+        "area": 65610.0,
+        "gini": 39.3,
+        "timezones": [
+          "UTC+05:30"
+        ],
+        "borders": [
+          "IND"
+        ],
+        "nativeName": "śrī laṃkāva",
+        "numericCode": "144",
+        "flags": {
+          "svg": "https://flagcdn.com/lk.svg",
+          "png": "https://flagcdn.com/w320/lk.png"
+        },
+        "currencies": [
+          {
+            "code": "LKR",
+            "name": "Sri Lankan rupee",
+            "symbol": "Rs"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "si",
+            "iso639_2": "sin",
+            "name": "Sinhalese",
+            "nativeName": "සිංහල"
+          },
+          {
+            "iso639_1": "ta",
+            "iso639_2": "tam",
+            "name": "Tamil",
+            "nativeName": "தமிழ்"
+          }
+        ],
+        "translations": {
+          "br": "Sri Lanka",
+          "pt": "Sri Lanka",
+          "nl": "Sri Lanka",
+          "hr": "Šri Lanka",
+          "fa": "سری‌لانکا",
+          "de": "Sri Lanka",
+          "es": "Sri Lanka",
+          "fr": "Sri Lanka",
+          "ja": "スリランカ",
+          "it": "Sri Lanka",
+          "hu": "Srí Lanka"
+        },
+        "flag": "https://flagcdn.com/lk.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "SAARC",
+            "name": "South Asian Association for Regional Cooperation"
+          }
+        ],
+        "cioc": "SRI",
+        "independent": true
+      },
+      {
+        "name": "Sudan",
+        "topLevelDomain": [
+          ".sd"
+        ],
+        "alpha2Code": "SD",
+        "alpha3Code": "SDN",
+        "callingCodes": [
+          "249"
+        ],
+        "capital": "Khartoum",
+        "altSpellings": [
+          "SD",
+          "Republic of the Sudan",
+          "Jumhūrīyat as-Sūdān"
+        ],
+        "subregion": "Northern Africa",
+        "region": "Africa",
+        "population": 43849269,
+        "latlng": [
+          15.0,
+          30.0
+        ],
+        "demonym": "Sudanese",
+        "area": 1886068.0,
+        "gini": 34.2,
+        "timezones": [
+          "UTC+03:00"
+        ],
+        "borders": [
+          "CAF",
+          "TCD",
+          "EGY",
+          "ERI",
+          "ETH",
+          "LBY",
+          "SSD"
+        ],
+        "nativeName": "السودان",
+        "numericCode": "729",
+        "flags": {
+          "svg": "https://flagcdn.com/sd.svg",
+          "png": "https://flagcdn.com/w320/sd.png"
+        },
+        "currencies": [
+          {
+            "code": "SDG",
+            "name": "Sudanese pound",
+            "symbol": "ج.س."
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "ar",
+            "iso639_2": "ara",
+            "name": "Arabic",
+            "nativeName": "العربية"
+          },
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Sudão",
+          "pt": "Sudão",
+          "nl": "Soedan",
+          "hr": "Sudan",
+          "fa": "سودان",
+          "de": "Sudan",
+          "es": "Sudán",
+          "fr": "Soudan",
+          "ja": "スーダン",
+          "it": "Sudan",
+          "hu": "Szudán"
+        },
+        "flag": "https://flagcdn.com/sd.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "African Union",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          },
+          {
+            "acronym": "AL",
+            "name": "Arab League",
+            "otherNames": [
+              "جامعة الدول العربية",
+              "Jāmiʻat ad-Duwal al-ʻArabīyah",
+              "League of Arab States"
+            ]
+          }
+        ],
+        "cioc": "SUD",
+        "independent": true
+      },
+      {
+        "name": "South Sudan",
+        "topLevelDomain": [
+          ".ss"
+        ],
+        "alpha2Code": "SS",
+        "alpha3Code": "SSD",
+        "callingCodes": [
+          "211"
+        ],
+        "capital": "Juba",
+        "altSpellings": [
+          "SS"
+        ],
+        "subregion": "Middle Africa",
+        "region": "Africa",
+        "population": 11193729,
+        "latlng": [
+          7.0,
+          30.0
+        ],
+        "demonym": "South Sudanese",
+        "area": 619745.0,
+        "gini": 44.1,
+        "timezones": [
+          "UTC+03:00"
+        ],
+        "borders": [
+          "CAF",
+          "COD",
+          "ETH",
+          "KEN",
+          "SDN",
+          "UGA"
+        ],
+        "nativeName": "South Sudan",
+        "numericCode": "728",
+        "flags": {
+          "svg": "https://flagcdn.com/ss.svg",
+          "png": "https://flagcdn.com/w320/ss.png"
+        },
+        "currencies": [
+          {
+            "code": "SSP",
+            "name": "South Sudanese pound",
+            "symbol": "£"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Sudão do Sul",
+          "pt": "Sudão do Sul",
+          "nl": "Zuid-Soedan",
+          "hr": "Južni Sudan",
+          "fa": "سودان جنوبی",
+          "de": "Südsudan",
+          "es": "Sudán del Sur",
+          "fr": "Soudan du Sud",
+          "ja": "南スーダン",
+          "it": "Sudan del sud",
+          "hu": "Dél-Szudán"
+        },
+        "flag": "https://flagcdn.com/ss.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "African Union",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "cioc": "SSD",
+        "independent": true
+      },
+      {
+        "name": "Suriname",
+        "topLevelDomain": [
+          ".sr"
+        ],
+        "alpha2Code": "SR",
+        "alpha3Code": "SUR",
+        "callingCodes": [
+          "597"
+        ],
+        "capital": "Paramaribo",
+        "altSpellings": [
+          "SR",
+          "Sarnam",
+          "Sranangron",
+          "Republic of Suriname",
+          "Republiek Suriname"
+        ],
+        "subregion": "South America",
+        "region": "Americas",
+        "population": 586634,
+        "latlng": [
+          4.0,
+          -56.0
+        ],
+        "demonym": "Surinamer",
+        "area": 163820.0,
+        "gini": 57.9,
+        "timezones": [
+          "UTC-03:00"
+        ],
+        "borders": [
+          "BRA",
+          "FRA",
+          "GUF",
+          "GUY"
+        ],
+        "nativeName": "Suriname",
+        "numericCode": "740",
+        "flags": {
+          "svg": "https://flagcdn.com/sr.svg",
+          "png": "https://flagcdn.com/w320/sr.png"
+        },
+        "currencies": [
+          {
+            "code": "SRD",
+            "name": "Surinamese dollar",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "nl",
+            "iso639_2": "nld",
+            "name": "Dutch",
+            "nativeName": "Nederlands"
+          }
+        ],
+        "translations": {
+          "br": "Suriname",
+          "pt": "Suriname",
+          "nl": "Suriname",
+          "hr": "Surinam",
+          "fa": "سورینام",
+          "de": "Suriname",
+          "es": "Surinam",
+          "fr": "Surinam",
+          "ja": "スリナム",
+          "it": "Suriname",
+          "hu": "Suriname"
+        },
+        "flag": "https://flagcdn.com/sr.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "CARICOM",
+            "name": "Caribbean Community",
+            "otherNames": [
+              "Comunidad del Caribe",
+              "Communauté Caribéenne",
+              "Caribische Gemeenschap"
+            ]
+          },
+          {
+            "acronym": "USAN",
+            "name": "Union of South American Nations",
+            "otherAcronyms": [
+              "UNASUR",
+              "UNASUL",
+              "UZAN"
+            ],
+            "otherNames": [
+              "Unión de Naciones Suramericanas",
+              "União de Nações Sul-Americanas",
+              "Unie van Zuid-Amerikaanse Naties",
+              "South American Union"
+            ]
+          }
+        ],
+        "cioc": "SUR",
+        "independent": true
+      },
+      {
+        "name": "Svalbard and Jan Mayen",
+        "topLevelDomain": [
+          ".sj"
+        ],
+        "alpha2Code": "SJ",
+        "alpha3Code": "SJM",
+        "callingCodes": [
+          "47"
+        ],
+        "capital": "Longyearbyen",
+        "altSpellings": [
+          "SJ",
+          "Svalbard and Jan Mayen Islands"
+        ],
+        "subregion": "Northern Europe",
+        "region": "Europe",
+        "population": 2562,
+        "latlng": [
+          78.0,
+          20.0
+        ],
+        "demonym": "Norwegian",
+        "timezones": [
+          "UTC+01:00"
+        ],
+        "nativeName": "Svalbard og Jan Mayen",
+        "numericCode": "744",
+        "flags": {
+          "svg": "https://flagcdn.com/sj.svg",
+          "png": "https://flagcdn.com/w320/sj.png"
+        },
+        "currencies": [
+          {
+            "code": "NOK",
+            "name": "Norwegian krone",
+            "symbol": "kr"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "no",
+            "iso639_2": "nor",
+            "name": "Norwegian",
+            "nativeName": "Norsk"
+          }
+        ],
+        "translations": {
+          "br": "Svalbard",
+          "pt": "Svalbard",
+          "nl": "Svalbard en Jan Mayen",
+          "hr": "Svalbard i Jan Mayen",
+          "fa": "سوالبارد و یان ماین",
+          "de": "Svalbard und Jan Mayen",
+          "es": "Islas Svalbard y Jan Mayen",
+          "fr": "Svalbard et Jan Mayen",
+          "ja": "スヴァールバル諸島およびヤンマイエン島",
+          "it": "Svalbard e Jan Mayen",
+          "hu": "Spitzbergák ís Jan Mayen-szigetek"
+        },
+        "flag": "https://flagcdn.com/sj.svg",
+        "independent": false
+      },
+      {
+        "name": "Tuvalu",
+        "topLevelDomain": [
+          ".tv"
+        ],
+        "alpha2Code": "TV",
+        "alpha3Code": "TUV",
+        "callingCodes": [
+          "688"
+        ],
+        "capital": "Funafuti",
+        "altSpellings": [
+          "TV"
+        ],
+        "subregion": "Polynesia",
+        "region": "Oceania",
+        "population": 11792,
+        "latlng": [
+          -8.0,
+          178.0
+        ],
+        "demonym": "Tuvaluan",
+        "area": 26.0,
+        "gini": 39.1,
+        "timezones": [
+          "UTC+12:00"
+        ],
+        "nativeName": "Tuvalu",
+        "numericCode": "798",
+        "flags": {
+          "svg": "https://flagcdn.com/tv.svg",
+          "png": "https://flagcdn.com/w320/tv.png"
+        },
+        "currencies": [
+          {
+            "code": "AUD",
+            "name": "Australian dollar",
+            "symbol": "$"
+          },
+          {
+            "code": "TVD[G]",
+            "name": "Tuvaluan dollar",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Tuvalu",
+          "pt": "Tuvalu",
+          "nl": "Tuvalu",
+          "hr": "Tuvalu",
+          "fa": "تووالو",
+          "de": "Tuvalu",
+          "es": "Tuvalu",
+          "fr": "Tuvalu",
+          "ja": "ツバル",
+          "it": "Tuvalu",
+          "hu": "Tuvalu"
+        },
+        "flag": "https://flagcdn.com/tv.svg",
+        "cioc": "TUV",
+        "independent": true
+      },
+      {
+        "name": "Uganda",
+        "topLevelDomain": [
+          ".ug"
+        ],
+        "alpha2Code": "UG",
+        "alpha3Code": "UGA",
+        "callingCodes": [
+          "256"
+        ],
+        "capital": "Kampala",
+        "altSpellings": [
+          "UG",
+          "Republic of Uganda",
+          "Jamhuri ya Uganda"
+        ],
+        "subregion": "Eastern Africa",
+        "region": "Africa",
+        "population": 45741000,
+        "latlng": [
+          1.0,
+          32.0
+        ],
+        "demonym": "Ugandan",
+        "area": 241550.0,
+        "gini": 42.8,
+        "timezones": [
+          "UTC+03:00"
+        ],
+        "borders": [
+          "COD",
+          "KEN",
+          "RWA",
+          "SSD",
+          "TZA"
+        ],
+        "nativeName": "Uganda",
+        "numericCode": "800",
+        "flags": {
+          "svg": "https://flagcdn.com/ug.svg",
+          "png": "https://flagcdn.com/w320/ug.png"
+        },
+        "currencies": [
+          {
+            "code": "UGX",
+            "name": "Ugandan shilling",
+            "symbol": "Sh"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          },
+          {
+            "iso639_1": "sw",
+            "iso639_2": "swa",
+            "name": "Swahili",
+            "nativeName": "Kiswahili"
+          }
+        ],
+        "translations": {
+          "br": "Uganda",
+          "pt": "Uganda",
+          "nl": "Oeganda",
+          "hr": "Uganda",
+          "fa": "اوگاندا",
+          "de": "Uganda",
+          "es": "Uganda",
+          "fr": "Uganda",
+          "ja": "ウガンダ",
+          "it": "Uganda",
+          "hu": "Uganda"
+        },
+        "flag": "https://flagcdn.com/ug.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "African Union",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "cioc": "UGA",
+        "independent": true
+      },
+      {
+        "name": "Ukraine",
+        "topLevelDomain": [
+          ".ua"
+        ],
+        "alpha2Code": "UA",
+        "alpha3Code": "UKR",
+        "callingCodes": [
+          "380"
+        ],
+        "capital": "Kyiv",
+        "altSpellings": [
+          "UA",
+          "Ukrayina"
+        ],
+        "subregion": "Eastern Europe",
+        "region": "Europe",
+        "population": 44134693,
+        "latlng": [
+          49.0,
+          32.0
+        ],
+        "demonym": "Ukrainian",
+        "area": 603700.0,
+        "gini": 26.6,
+        "timezones": [
+          "UTC+02:00"
+        ],
+        "borders": [
+          "BLR",
+          "HUN",
+          "MDA",
+          "POL",
+          "ROU",
+          "RUS",
+          "SVK"
+        ],
+        "nativeName": "Україна",
+        "numericCode": "804",
+        "flags": {
+          "svg": "https://flagcdn.com/ua.svg",
+          "png": "https://flagcdn.com/w320/ua.png"
+        },
+        "currencies": [
+          {
+            "code": "UAH",
+            "name": "Ukrainian hryvnia",
+            "symbol": "₴"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "uk",
+            "iso639_2": "ukr",
+            "name": "Ukrainian",
+            "nativeName": "Українська"
+          }
+        ],
+        "translations": {
+          "br": "Ucrânia",
+          "pt": "Ucrânia",
+          "nl": "Oekraïne",
+          "hr": "Ukrajina",
+          "fa": "وکراین",
+          "de": "Ukraine",
+          "es": "Ucrania",
+          "fr": "Ukraine",
+          "ja": "ウクライナ",
+          "it": "Ucraina",
+          "hu": "Ukrajna"
+        },
+        "flag": "https://flagcdn.com/ua.svg",
+        "cioc": "UKR",
+        "independent": true
+      },
+      {
+        "name": "United Arab Emirates",
+        "topLevelDomain": [
+          ".ae"
+        ],
+        "alpha2Code": "AE",
+        "alpha3Code": "ARE",
+        "callingCodes": [
+          "971"
+        ],
+        "capital": "Abu Dhabi",
+        "altSpellings": [
+          "AE",
+          "UAE"
+        ],
+        "subregion": "Western Asia",
+        "region": "Asia",
+        "population": 9890400,
+        "latlng": [
+          24.0,
+          54.0
+        ],
+        "demonym": "Emirati",
+        "area": 83600.0,
+        "gini": 26.0,
+        "timezones": [
+          "UTC+04"
+        ],
+        "borders": [
+          "OMN",
+          "SAU"
+        ],
+        "nativeName": "دولة الإمارات العربية المتحدة",
+        "numericCode": "784",
+        "flags": {
+          "svg": "https://flagcdn.com/ae.svg",
+          "png": "https://flagcdn.com/w320/ae.png"
+        },
+        "currencies": [
+          {
+            "code": "AED",
+            "name": "United Arab Emirates dirham",
+            "symbol": "د.إ"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "ar",
+            "iso639_2": "ara",
+            "name": "Arabic",
+            "nativeName": "العربية"
+          }
+        ],
+        "translations": {
+          "br": "Emirados árabes Unidos",
+          "pt": "Emirados árabes Unidos",
+          "nl": "Verenigde Arabische Emiraten",
+          "hr": "Ujedinjeni Arapski Emirati",
+          "fa": "امارات متحده عربی",
+          "de": "Vereinigte Arabische Emirate",
+          "es": "Emiratos Árabes Unidos",
+          "fr": "Émirats arabes unis",
+          "ja": "アラブ首長国連邦",
+          "it": "Emirati Arabi Uniti",
+          "hu": "Egyesült Arab Emőrsígek"
+        },
+        "flag": "https://flagcdn.com/ae.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AL",
+            "name": "Arab League",
+            "otherNames": [
+              "جامعة الدول العربية",
+              "Jāmiʻat ad-Duwal al-ʻArabīyah",
+              "League of Arab States"
+            ]
+          }
+        ],
+        "cioc": "UAE",
+        "independent": true
+      },
+      {
+        "name": "United Kingdom of Great Britain and Northern Ireland",
+        "topLevelDomain": [
+          ".uk"
+        ],
+        "alpha2Code": "GB",
+        "alpha3Code": "GBR",
+        "callingCodes": [
+          "44"
+        ],
+        "capital": "London",
+        "altSpellings": [
+          "GB",
+          "UK",
+          "Great Britain"
+        ],
+        "subregion": "Northern Europe",
+        "region": "Europe",
+        "population": 67215293,
+        "latlng": [
+          54.0,
+          -2.0
+        ],
+        "demonym": "British",
+        "area": 242900.0,
+        "gini": 35.1,
+        "timezones": [
+          "UTC-08:00",
+          "UTC-05:00",
+          "UTC-04:00",
+          "UTC-03:00",
+          "UTC-02:00",
+          "UTC",
+          "UTC+01:00",
+          "UTC+02:00",
+          "UTC+06:00"
+        ],
+        "borders": [
+          "IRL"
+        ],
+        "nativeName": "United Kingdom",
+        "numericCode": "826",
+        "flags": {
+          "svg": "https://flagcdn.com/gb.svg",
+          "png": "https://flagcdn.com/w320/gb.png"
+        },
+        "currencies": [
+          {
+            "code": "GBP",
+            "name": "British pound",
+            "symbol": "£"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Reino Unido",
+          "pt": "Reino Unido",
+          "nl": "Verenigd Koninkrijk",
+          "hr": "Ujedinjeno Kraljevstvo",
+          "fa": "بریتانیای کبیر و ایرلند شمالی",
+          "de": "Vereinigtes Königreich",
+          "es": "Reino Unido",
+          "fr": "Royaume-Uni",
+          "ja": "イギリス",
+          "it": "Regno Unito",
+          "hu": "Nagy-Britannia"
+        },
+        "flag": "https://flagcdn.com/gb.svg",
+        "cioc": "GBR",
+        "independent": true
+      },
+      {
+        "name": "United States of America",
+        "topLevelDomain": [
+          ".us"
+        ],
+        "alpha2Code": "US",
+        "alpha3Code": "USA",
+        "callingCodes": [
+          "1"
+        ],
+        "capital": "Washington, D.C.",
+        "altSpellings": [
+          "US",
+          "USA",
+          "United States of America"
+        ],
+        "subregion": "Northern America",
+        "region": "Americas",
+        "population": 329484123,
+        "latlng": [
+          38.0,
+          -97.0
+        ],
+        "demonym": "American",
+        "area": 9629091.0,
+        "gini": 41.4,
+        "timezones": [
+          "UTC-12:00",
+          "UTC-11:00",
+          "UTC-10:00",
+          "UTC-09:00",
+          "UTC-08:00",
+          "UTC-07:00",
+          "UTC-06:00",
+          "UTC-05:00",
+          "UTC-04:00",
+          "UTC+10:00",
+          "UTC+12:00"
+        ],
+        "borders": [
+          "CAN",
+          "MEX"
+        ],
+        "nativeName": "United States",
+        "numericCode": "840",
+        "flags": {
+          "svg": "https://flagcdn.com/us.svg",
+          "png": "https://flagcdn.com/w320/us.png"
+        },
+        "currencies": [
+          {
+            "code": "USD",
+            "name": "United States dollar",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Estados Unidos",
+          "pt": "Estados Unidos",
+          "nl": "Verenigde Staten",
+          "hr": "Sjedinjene Američke Države",
+          "fa": "ایالات متحده آمریکا",
+          "de": "Vereinigte Staaten von Amerika",
+          "es": "Estados Unidos",
+          "fr": "États-Unis",
+          "ja": "アメリカ合衆国",
+          "it": "Stati Uniti D'America",
+          "hu": "Amerikai Egyesült Államok"
+        },
+        "flag": "https://flagcdn.com/us.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "NAFTA",
+            "name": "North American Free Trade Agreement",
+            "otherNames": [
+              "Tratado de Libre Comercio de América del Norte",
+              "Accord de Libre-échange Nord-Américain"
+            ]
+          }
+        ],
+        "cioc": "USA",
+        "independent": true
+      },
+      {
+        "name": "Uruguay",
+        "topLevelDomain": [
+          ".uy"
+        ],
+        "alpha2Code": "UY",
+        "alpha3Code": "URY",
+        "callingCodes": [
+          "598"
+        ],
+        "capital": "Montevideo",
+        "altSpellings": [
+          "UY",
+          "Oriental Republic of Uruguay",
+          "República Oriental del Uruguay"
+        ],
+        "subregion": "South America",
+        "region": "Americas",
+        "population": 3473727,
+        "latlng": [
+          -33.0,
+          -56.0
+        ],
+        "demonym": "Uruguayan",
+        "area": 181034.0,
+        "gini": 39.7,
+        "timezones": [
+          "UTC-03:00"
+        ],
+        "borders": [
+          "ARG",
+          "BRA"
+        ],
+        "nativeName": "Uruguay",
+        "numericCode": "858",
+        "flags": {
+          "svg": "https://flagcdn.com/uy.svg",
+          "png": "https://flagcdn.com/w320/uy.png"
+        },
+        "currencies": [
+          {
+            "code": "UYU",
+            "name": "Uruguayan peso",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "es",
+            "iso639_2": "spa",
+            "name": "Spanish",
+            "nativeName": "Español"
+          }
+        ],
+        "translations": {
+          "br": "Uruguai",
+          "pt": "Uruguai",
+          "nl": "Uruguay",
+          "hr": "Urugvaj",
+          "fa": "اروگوئه",
+          "de": "Uruguay",
+          "es": "Uruguay",
+          "fr": "Uruguay",
+          "ja": "ウルグアイ",
+          "it": "Uruguay",
+          "hu": "Uruguay"
+        },
+        "flag": "https://flagcdn.com/uy.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "USAN",
+            "name": "Union of South American Nations",
+            "otherAcronyms": [
+              "UNASUR",
+              "UNASUL",
+              "UZAN"
+            ],
+            "otherNames": [
+              "Unión de Naciones Suramericanas",
+              "União de Nações Sul-Americanas",
+              "Unie van Zuid-Amerikaanse Naties",
+              "South American Union"
+            ]
+          }
+        ],
+        "cioc": "URU",
+        "independent": true
+      },
+      {
+        "name": "Uzbekistan",
+        "topLevelDomain": [
+          ".uz"
+        ],
+        "alpha2Code": "UZ",
+        "alpha3Code": "UZB",
+        "callingCodes": [
+          "998"
+        ],
+        "capital": "Tashkent",
+        "altSpellings": [
+          "UZ",
+          "Republic of Uzbekistan",
+          "O‘zbekiston Respublikasi",
+          "Ўзбекистон Республикаси"
+        ],
+        "subregion": "Central Asia",
+        "region": "Asia",
+        "population": 34232050,
+        "latlng": [
+          41.0,
+          64.0
+        ],
+        "demonym": "Uzbekistani",
+        "area": 447400.0,
+        "gini": 35.3,
+        "timezones": [
+          "UTC+05:00"
+        ],
+        "borders": [
+          "AFG",
+          "KAZ",
+          "KGZ",
+          "TJK",
+          "TKM"
+        ],
+        "nativeName": "O‘zbekiston",
+        "numericCode": "860",
+        "flags": {
+          "svg": "https://flagcdn.com/uz.svg",
+          "png": "https://flagcdn.com/w320/uz.png"
+        },
+        "currencies": [
+          {
+            "code": "UZS",
+            "name": "Uzbekistani so'm",
+            "symbol": "so'm"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "uz",
+            "iso639_2": "uzb",
+            "name": "Uzbek",
+            "nativeName": "Oʻzbek"
+          },
+          {
+            "iso639_1": "ru",
+            "iso639_2": "rus",
+            "name": "Russian",
+            "nativeName": "Русский"
+          }
+        ],
+        "translations": {
+          "br": "Uzbequistão",
+          "pt": "Usbequistão",
+          "nl": "Oezbekistan",
+          "hr": "Uzbekistan",
+          "fa": "ازبکستان",
+          "de": "Usbekistan",
+          "es": "Uzbekistán",
+          "fr": "Ouzbékistan",
+          "ja": "ウズベキスタン",
+          "it": "Uzbekistan",
+          "hu": "Üzbegisztán"
+        },
+        "flag": "https://flagcdn.com/uz.svg",
+        "cioc": "UZB",
+        "independent": false
+      },
+      {
+        "name": "Vanuatu",
+        "topLevelDomain": [
+          ".vu"
+        ],
+        "alpha2Code": "VU",
+        "alpha3Code": "VUT",
+        "callingCodes": [
+          "678"
+        ],
+        "capital": "Port Vila",
+        "altSpellings": [
+          "VU",
+          "Republic of Vanuatu",
+          "Ripablik blong Vanuatu",
+          "République de Vanuatu"
+        ],
+        "subregion": "Melanesia",
+        "region": "Oceania",
+        "population": 307150,
+        "latlng": [
+          -16.0,
+          167.0
+        ],
+        "demonym": "Ni-Vanuatu",
+        "area": 12189.0,
+        "gini": 37.6,
+        "timezones": [
+          "UTC+11:00"
+        ],
+        "nativeName": "Vanuatu",
+        "numericCode": "548",
+        "flags": {
+          "svg": "https://flagcdn.com/vu.svg",
+          "png": "https://flagcdn.com/w320/vu.png"
+        },
+        "currencies": [
+          {
+            "code": "VUV",
+            "name": "Vanuatu vatu",
+            "symbol": "Vt"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "bi",
+            "iso639_2": "bis",
+            "name": "Bislama",
+            "nativeName": "Bislama"
+          },
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          },
+          {
+            "iso639_1": "fr",
+            "iso639_2": "fra",
+            "name": "French",
+            "nativeName": "français"
+          }
+        ],
+        "translations": {
+          "br": "Vanuatu",
+          "pt": "Vanuatu",
+          "nl": "Vanuatu",
+          "hr": "Vanuatu",
+          "fa": "وانواتو",
+          "de": "Vanuatu",
+          "es": "Vanuatu",
+          "fr": "Vanuatu",
+          "ja": "バヌアツ",
+          "it": "Vanuatu",
+          "hu": "Vanuatu"
+        },
+        "flag": "https://flagcdn.com/vu.svg",
+        "cioc": "VAN",
+        "independent": true
+      },
+      {
+        "name": "Venezuela (Bolivarian Republic of)",
+        "topLevelDomain": [
+          ".ve"
+        ],
+        "alpha2Code": "VE",
+        "alpha3Code": "VEN",
+        "callingCodes": [
+          "58"
+        ],
+        "capital": "Caracas",
+        "altSpellings": [
+          "VE",
+          "Bolivarian Republic of Venezuela",
+          "República Bolivariana de Venezuela"
+        ],
+        "subregion": "South America",
+        "region": "Americas",
+        "population": 28435943,
+        "latlng": [
+          8.0,
+          -66.0
+        ],
+        "demonym": "Venezuelan",
+        "area": 916445.0,
+        "gini": 44.8,
+        "timezones": [
+          "UTC-04:00"
+        ],
+        "borders": [
+          "BRA",
+          "COL",
+          "GUY"
+        ],
+        "nativeName": "Venezuela",
+        "numericCode": "862",
+        "flags": {
+          "svg": "https://flagcdn.com/ve.svg",
+          "png": "https://flagcdn.com/w320/ve.png"
+        },
+        "currencies": [
+          {
+            "code": "VEF",
+            "name": "Venezuelan bolívar",
+            "symbol": "Bs S"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "es",
+            "iso639_2": "spa",
+            "name": "Spanish",
+            "nativeName": "Español"
+          }
+        ],
+        "translations": {
+          "br": "Venezuela",
+          "pt": "Venezuela",
+          "nl": "Venezuela",
+          "hr": "Venezuela",
+          "fa": "ونزوئلا",
+          "de": "Venezuela",
+          "es": "Venezuela",
+          "fr": "Venezuela",
+          "ja": "ベネズエラ・ボリバル共和国",
+          "it": "Venezuela",
+          "hu": "Venezuela"
+        },
+        "flag": "https://flagcdn.com/ve.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "USAN",
+            "name": "Union of South American Nations",
+            "otherAcronyms": [
+              "UNASUR",
+              "UNASUL",
+              "UZAN"
+            ],
+            "otherNames": [
+              "Unión de Naciones Suramericanas",
+              "União de Nações Sul-Americanas",
+              "Unie van Zuid-Amerikaanse Naties",
+              "South American Union"
+            ]
+          }
+        ],
+        "cioc": "VEN",
+        "independent": true
+      },
+      {
+        "name": "Vietnam",
+        "topLevelDomain": [
+          ".vn"
+        ],
+        "alpha2Code": "VN",
+        "alpha3Code": "VNM",
+        "callingCodes": [
+          "84"
+        ],
+        "capital": "Hanoi",
+        "altSpellings": [
+          "VN",
+          "Socialist Republic of Vietnam",
+          "Cộng hòa Xã hội chủ nghĩa Việt Nam"
+        ],
+        "subregion": "South-Eastern Asia",
+        "region": "Asia",
+        "population": 97338583,
+        "latlng": [
+          16.16666666,
+          107.83333333
+        ],
+        "demonym": "Vietnamese",
+        "area": 331212.0,
+        "gini": 35.7,
+        "timezones": [
+          "UTC+07:00"
+        ],
+        "borders": [
+          "KHM",
+          "CHN",
+          "LAO"
+        ],
+        "nativeName": "Việt Nam",
+        "numericCode": "704",
+        "flags": {
+          "svg": "https://flagcdn.com/vn.svg",
+          "png": "https://flagcdn.com/w320/vn.png"
+        },
+        "currencies": [
+          {
+            "code": "VND",
+            "name": "Vietnamese đồng",
+            "symbol": "₫"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "vi",
+            "iso639_2": "vie",
+            "name": "Vietnamese",
+            "nativeName": "Tiếng Việt"
+          }
+        ],
+        "translations": {
+          "br": "Vietnã",
+          "pt": "Vietname",
+          "nl": "Vietnam",
+          "hr": "Vijetnam",
+          "fa": "ویتنام",
+          "de": "Vietnam",
+          "es": "Vietnam",
+          "fr": "Viêt Nam",
+          "ja": "ベトナム",
+          "it": "Vietnam",
+          "hu": "Vietnám"
+        },
+        "flag": "https://flagcdn.com/vn.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "ASEAN",
+            "name": "Association of Southeast Asian Nations"
+          }
+        ],
+        "cioc": "VIE",
+        "independent": true
+      },
+      {
+        "name": "Wallis and Futuna",
+        "topLevelDomain": [
+          ".wf"
+        ],
+        "alpha2Code": "WF",
+        "alpha3Code": "WLF",
+        "callingCodes": [
+          "681"
+        ],
+        "capital": "Mata-Utu",
+        "altSpellings": [
+          "WF",
+          "Territory of the Wallis and Futuna Islands",
+          "Territoire des îles Wallis et Futuna"
+        ],
+        "subregion": "Polynesia",
+        "region": "Oceania",
+        "population": 11750,
+        "latlng": [
+          -13.3,
+          -176.2
+        ],
+        "demonym": "Wallis and Futuna Islander",
+        "area": 142.0,
+        "timezones": [
+          "UTC+12:00"
+        ],
+        "nativeName": "Wallis et Futuna",
+        "numericCode": "876",
+        "flags": {
+          "svg": "https://flagcdn.com/wf.svg",
+          "png": "https://flagcdn.com/w320/wf.png"
+        },
+        "currencies": [
+          {
+            "code": "XPF",
+            "name": "CFP franc",
+            "symbol": "Fr"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "fr",
+            "iso639_2": "fra",
+            "name": "French",
+            "nativeName": "français"
+          }
+        ],
+        "translations": {
+          "br": "Wallis e Futuna",
+          "pt": "Wallis e Futuna",
+          "nl": "Wallis en Futuna",
+          "hr": "Wallis i Fortuna",
+          "fa": "والیس و فوتونا",
+          "de": "Wallis und Futuna",
+          "es": "Wallis y Futuna",
+          "fr": "Wallis-et-Futuna",
+          "ja": "ウォリス・フツナ",
+          "it": "Wallis e Futuna",
+          "hu": "Wallis és Futuna"
+        },
+        "flag": "https://flagcdn.com/wf.svg",
+        "independent": false
+      },
+      {
+        "name": "Western Sahara",
+        "topLevelDomain": [
+          ".eh"
+        ],
+        "alpha2Code": "EH",
+        "alpha3Code": "ESH",
+        "callingCodes": [
+          "212"
+        ],
+        "capital": "El Aaiún",
+        "altSpellings": [
+          "EH",
+          "Taneẓroft Tutrimt"
+        ],
+        "subregion": "Northern Africa",
+        "region": "Africa",
+        "population": 510713,
+        "latlng": [
+          24.5,
+          -13.0
+        ],
+        "demonym": "Sahrawi",
+        "area": 266000.0,
+        "timezones": [
+          "UTC+00:00"
+        ],
+        "borders": [
+          "DZA",
+          "MRT",
+          "MAR"
+        ],
+        "nativeName": "الصحراء الغربية",
+        "numericCode": "732",
+        "flags": {
+          "svg": "https://flagcdn.com/eh.svg",
+          "png": "https://flagcdn.com/w320/eh.png"
+        },
+        "currencies": [
+          {
+            "code": "MAD",
+            "name": "Moroccan dirham",
+            "symbol": "د.م."
+          },
+          {
+            "code": "DZD",
+            "name": "Algerian dinar",
+            "symbol": "د.ج"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "es",
+            "iso639_2": "spa",
+            "name": "Spanish",
+            "nativeName": "Español"
+          }
+        ],
+        "translations": {
+          "br": "Saara Ocidental",
+          "pt": "Saara Ocidental",
+          "nl": "Westelijke Sahara",
+          "hr": "Zapadna Sahara",
+          "fa": "جمهوری دموکراتیک عربی صحرا",
+          "de": "Westsahara",
+          "es": "Sahara Occidental",
+          "fr": "Sahara Occidental",
+          "ja": "西サハラ",
+          "it": "Sahara Occidentale",
+          "hu": "Nyugat-Szahara"
+        },
+        "flag": "https://flagcdn.com/eh.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "African Union",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "independent": false
+      },
+      {
+        "name": "Yemen",
+        "topLevelDomain": [
+          ".ye"
+        ],
+        "alpha2Code": "YE",
+        "alpha3Code": "YEM",
+        "callingCodes": [
+          "967"
+        ],
+        "capital": "Sana'a",
+        "altSpellings": [
+          "YE",
+          "Yemeni Republic",
+          "al-Jumhūriyyah al-Yamaniyyah"
+        ],
+        "subregion": "Western Asia",
+        "region": "Asia",
+        "population": 29825968,
+        "latlng": [
+          15.0,
+          48.0
+        ],
+        "demonym": "Yemeni",
+        "area": 527968.0,
+        "gini": 36.7,
+        "timezones": [
+          "UTC+03:00"
+        ],
+        "borders": [
+          "OMN",
+          "SAU"
+        ],
+        "nativeName": "اليَمَن",
+        "numericCode": "887",
+        "flags": {
+          "svg": "https://flagcdn.com/ye.svg",
+          "png": "https://flagcdn.com/w320/ye.png"
+        },
+        "currencies": [
+          {
+            "code": "YER",
+            "name": "Yemeni rial",
+            "symbol": "﷼"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "ar",
+            "iso639_2": "ara",
+            "name": "Arabic",
+            "nativeName": "العربية"
+          }
+        ],
+        "translations": {
+          "br": "Iêmen",
+          "pt": "Iémen",
+          "nl": "Jemen",
+          "hr": "Jemen",
+          "fa": "یمن",
+          "de": "Jemen",
+          "es": "Yemen",
+          "fr": "Yémen",
+          "ja": "イエメン",
+          "it": "Yemen",
+          "hu": "Jemen"
+        },
+        "flag": "https://flagcdn.com/ye.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AL",
+            "name": "Arab League",
+            "otherNames": [
+              "جامعة الدول العربية",
+              "Jāmiʻat ad-Duwal al-ʻArabīyah",
+              "League of Arab States"
+            ]
+          }
+        ],
+        "cioc": "YEM",
+        "independent": true
+      },
+      {
+        "name": "Zambia",
+        "topLevelDomain": [
+          ".zm"
+        ],
+        "alpha2Code": "ZM",
+        "alpha3Code": "ZMB",
+        "callingCodes": [
+          "260"
+        ],
+        "capital": "Lusaka",
+        "altSpellings": [
+          "ZM",
+          "Republic of Zambia"
+        ],
+        "subregion": "Eastern Africa",
+        "region": "Africa",
+        "population": 18383956,
+        "latlng": [
+          -15.0,
+          30.0
+        ],
+        "demonym": "Zambian",
+        "area": 752618.0,
+        "gini": 57.1,
+        "timezones": [
+          "UTC+02:00"
+        ],
+        "borders": [
+          "AGO",
+          "BWA",
+          "COD",
+          "MWI",
+          "MOZ",
+          "NAM",
+          "TZA",
+          "ZWE"
+        ],
+        "nativeName": "Zambia",
+        "numericCode": "894",
+        "flags": {
+          "svg": "https://flagcdn.com/zm.svg",
+          "png": "https://flagcdn.com/w320/zm.png"
+        },
+        "currencies": [
+          {
+            "code": "ZMW",
+            "name": "Zambian kwacha",
+            "symbol": "ZK"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Zâmbia",
+          "pt": "Zâmbia",
+          "nl": "Zambia",
+          "hr": "Zambija",
+          "fa": "زامبیا",
+          "de": "Sambia",
+          "es": "Zambia",
+          "fr": "Zambie",
+          "ja": "ザンビア",
+          "it": "Zambia",
+          "hu": "Zambia"
+        },
+        "flag": "https://flagcdn.com/zm.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "African Union",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "cioc": "ZAM",
+        "independent": true
+      },
+      {
+        "name": "Zimbabwe",
+        "topLevelDomain": [
+          ".zw"
+        ],
+        "alpha2Code": "ZW",
+        "alpha3Code": "ZWE",
+        "callingCodes": [
+          "263"
+        ],
+        "capital": "Harare",
+        "altSpellings": [
+          "ZW",
+          "Republic of Zimbabwe"
+        ],
+        "subregion": "Eastern Africa",
+        "region": "Africa",
+        "population": 14862927,
+        "latlng": [
+          -20.0,
+          30.0
+        ],
+        "demonym": "Zimbabwean",
+        "area": 390757.0,
+        "gini": 50.3,
+        "timezones": [
+          "UTC+02:00"
+        ],
+        "borders": [
+          "BWA",
+          "MOZ",
+          "ZAF",
+          "ZMB"
+        ],
+        "nativeName": "Zimbabwe",
+        "numericCode": "716",
+        "flags": {
+          "svg": "https://flagcdn.com/zw.svg",
+          "png": "https://flagcdn.com/w320/zw.png"
+        },
+        "currencies": [
+          {
+            "code": "ZMW",
+            "name": "Zambian kwacha",
+            "symbol": "K"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+          },
+          {
+            "iso639_1": "sn",
+            "iso639_2": "sna",
+            "name": "Shona",
+            "nativeName": "chiShona"
+          },
+          {
+            "iso639_1": "nd",
+            "iso639_2": "nde",
+            "name": "Northern Ndebele",
+            "nativeName": "isiNdebele"
+          }
+        ],
+        "translations": {
+          "br": "Zimbabwe",
+          "pt": "Zimbabué",
+          "nl": "Zimbabwe",
+          "hr": "Zimbabve",
+          "fa": "زیمباوه",
+          "de": "Simbabwe",
+          "es": "Zimbabue",
+          "fr": "Zimbabwe",
+          "ja": "ジンバブエ",
+          "it": "Zimbabwe",
+          "hu": "Zimbabwe"
+        },
+        "flag": "https://flagcdn.com/zw.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "African Union",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "cioc": "ZIM",
+        "independent": true
+      }
+  ]
+}

@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="containerInner">
+    <div><h1>Countries</h1></div>
+    <div class="countryList">
+      <div *ngFor="let country of countries$ | async | keyvalue">
+        <ul>
+          <li (click)="selectedCountry = country.value.name">{{ country.value.name }}</li>
+          <div class="detailView" *ngIf="selectedCountry == country.value.name">
+            <div *ngFor="let x of country | keyvalue | slice: 1">
+              <h4>Data</h4>
+              <div>
+                <p>Country Name: {{ x.value.name }}</p>
+                <p>Population: {{ x.value.population }}</p>
+                <p>Alpha3Code: {{ x.value.alpha3Code }}</p>
+                <p>Region: {{ x.value.region }}</p>
+                <p>Subregion: {{ x.value.subregion }}</p>
+              </div>
+              <h4>Currencies</h4>
+              <div *ngFor="let i of x.value.currencies">
+                <p>Code {{ i.code }}</p>
+                <p>Name {{ i.name }}</p>
+                <p>Symbol {{ i.symbol }}</p>
+              </div>
+              <h4>Languages</h4>
+              <div *ngFor="let i of x.value.languages">
+                <h5>{{ i.name }}</h5>
+                <p>ISO639_1 {{ i.iso639_1 }}</p>
+                <p>ISO639_2 {{ i.iso639_2 }}</p>
+                <p>Native Name {{ i.nativeName }}</p>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
