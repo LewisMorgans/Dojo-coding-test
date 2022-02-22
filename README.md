@@ -1,12 +1,23 @@
-# PaymentsenseCodingChallengeWebsite
+# Paymentsense Coding ChallengeWebsite
 
-localhost:4200/countries
+#### Localhost access to datascreen: http://localhost:4200/countries
 
-Unit testing completed. Lazy loading implemented. Datastream subscribed to asynchronusly via Async pipe and selected data displayed via DOM with keyvalue indexies.
+- Unit testing completed. 
+- Lazy loading implemented. 
+- API mapped asynchronously to access index count of returned data stream.
+- Country data displayed in DOM via native *ngFor operators and keyvalue pipes.
 
-Problem approached by managing data stream subscription with the Angular async pipe. Utilising built in operators such as *ngFor over keyvalue you pairs to display data requested in the readme.md to match those that are in the data models.
+CSS mostly completed to my own competencies and time constraints in adherence to the provided figma design.
 
-CSS not approached.
+Further considerations not attempted due to time constraints and external factors:
 
-Author: Lewis Morgans
+- Implement HTTP Interceptors to process API caching and request type comparison. Improving performance and reducing potential bugs.
+- Compartmentalising component elements into child components to maintain SOLID design principles.
+- Investigate potential performance improvements by implementing separate typed objects to contain data model attributes (i.e) - Languages, Currencies.
+
+####Author: Lewis Morgans
+
+####Date: 22/02/2022
+
+####Licence: Public use permitted by author
 
