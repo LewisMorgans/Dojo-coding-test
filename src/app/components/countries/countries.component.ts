@@ -1,4 +1,4 @@
-import {AfterViewInit, Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CountriesApiService } from '../../services/countries-api.service';
 import { Countries } from '../../models/countries.model';
 import { map } from 'rxjs/operators';
@@ -9,17 +9,18 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./countries.component.scss'],
 })
 export class CountriesComponent implements OnInit {
-  public countries: Countries;
+  public countries: Countries = null;
   public selectedCountry: Object = null;
   public countryCount = -1;
 
   constructor(private readonly countriesApiService: CountriesApiService) {}
 
   ngOnInit() {
-    this.mapper();
+    this.apiToLocalDataMapper();
   }
 
-  public async mapper(): Promise<Countries> { // change to private
+  private async apiToLocalDataMapper(): Promise<Countries> {
+    // change to private
     return (this.countries = await this.countriesApiService
       .getCountries$()
       .pipe(
