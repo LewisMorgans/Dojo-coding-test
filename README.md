@@ -4,15 +4,15 @@
 
 - Unit testing completed. 
 - Lazy loading implemented. 
-- API mapped asynchronously to access index count of returned data stream.
-- Country data displayed in DOM via native *ngFor operators and keyvalue pipes.
+- API mapped asynchronously to access index count of returned data stream and expose data to viewer.
+- Country data displayed and manipulated in DOM via native Angular framework operators and pipes.
 
 CSS mostly completed to my own competencies and time constraints in adherence to the provided figma design.
 
-Further considerations not attempted due to time constraints and external factors:
+Further considerations for improvements:
 
-- Implement HTTP Interceptors to process API caching and request type comparison. Improving performance and reducing potential bugs.
-- Compartmentalising component elements into child components to maintain SOLID design principles.
+- Implement HTTP Interceptors to process API data caching and response type comparison.
+- Compartmentalising countries component elements into child components to maintain SOLID design principles.
 - Investigate potential performance improvements by implementing separate typed objects to contain data model attributes (i.e) - Languages, Currencies.
 
 #### Author: Lewis Morgans
