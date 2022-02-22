@@ -1,36 +1,52 @@
 <div class="container">
+  <div class="container__pageTitle">
+    <h3>Countries</h3>
+  </div>
   <div class="containerInner">
-    <div><h1>Countries</h1></div>
-    <div class="countryList">
-      <div *ngFor="let country of countries$ | async | keyvalue">
+    <div class="containerInner__nav">
+      <ul>
+        <li><p>Home</p></li>
+        <li><p>Countries</p></li>
+      </ul>
+    </div>
+    <div class="containerInner__countryList">
+      <h4>Countries ({{countryCount}})</h4>
+      <div *ngFor="let country of countries | keyvalue">
         <ul>
-          <li (click)="selectedCountry = country.value.name">{{ country.value.name }}</li>
-          <div class="detailView" *ngIf="selectedCountry == country.value.name">
-            <div *ngFor="let x of country | keyvalue | slice: 1">
-              <h4>Data</h4>
-              <div>
-                <p>Country Name: {{ x.value.name }}</p>
-                <p>Population: {{ x.value.population }}</p>
-                <p>Alpha3Code: {{ x.value.alpha3Code }}</p>
-                <p>Region: {{ x.value.region }}</p>
-                <p>Subregion: {{ x.value.subregion }}</p>
-              </div>
-              <h4>Currencies</h4>
-              <div *ngFor="let i of x.value.currencies">
-                <p>Code {{ i.code }}</p>
-                <p>Name {{ i.name }}</p>
-                <p>Symbol {{ i.symbol }}</p>
-              </div>
-              <h4>Languages</h4>
-              <div *ngFor="let i of x.value.languages">
-                <h5>{{ i.name }}</h5>
-                <p>ISO639_1 {{ i.iso639_1 }}</p>
-                <p>ISO639_2 {{ i.iso639_2 }}</p>
-                <p>Native Name {{ i.nativeName }}</p>
-              </div>
-            </div>
-          </div>
+          <li (click)="selectedCountry = country">{{ country.value.name }}</li>
         </ul>
+      </div>
+    </div>
+    <div *ngFor="let country of selectedCountry | keyvalue | slice: 1">
+      <h4>{{ country.value.name }}</h4>
+      <img class="containerInner__countryList__countryImage" src="assets/image-placeholder_3x2.svg" alt="placeholder.png">
+      <div class="containerInner__countryList__countryData">
+        <label for="population">Population</label>
+        <p id="population"> {{ country.value["population"] }}</p>
+        <label for="alpha3Code">Alpha3Code</label>
+        <p id="alpha3Code">{{ country.value["alpha3Code"] }}</p>
+        <label for="region">Region</label>
+        <p id="region">{{ country.value.region }}</p>
+        <label for="subregion">Subregion</label>
+        <p id="subregion">{{ country.value["subregion"] }}</p>
+      </div>
+      <div class="containerInner__countryList__countryData" *ngFor="let i of country.value['currencies']">
+        <label for="code">Currency Code</label>
+        <p id="code">{{ i.code }}</p>
+        <label for="currencyName">Currency Name</label>
+        <p id="currencyName">{{ i.name }}</p>
+        <label for="currencySymbol">Currency Symbol</label>
+        <p id="currencySymbol">{{ i.symbol }}</p>
+      </div>
+      <div class="containerInner__countryList__countryData" *ngFor="let i of country.value.languages">
+        <label for="languageName">Language Name</label>
+        <p id="languageName">{{ i['name'] }}</p>
+        <label for="languageISO1">ISO639_1</label>
+        <p id="languageISO1">{{ i["iso639_1"] }}</p>
+        <label for="languageISO2">ISO639_2</label>
+        <p id="languageISO2">{{ i["iso639_2"] }}</p>
+        <label for="nativeName">Native Name</label>
+        <p id="nativeName">{{ i["nativeName"] }}</p>
       </div>
     </div>
   </div>

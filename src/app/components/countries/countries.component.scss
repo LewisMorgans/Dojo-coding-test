@@ -1,3 +1,46 @@
-.detailView {
-  background-color: bisque;
+.container {
+  display: flex;
+  flex-direction: column;
+  &__pageTitle {
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+
+
+
+.containerInner {
+  display: flex;
+  flex-direction: row;
+  ul {
+    list-style: none;
+  }
+
+  &__nav {
+    cursor: pointer;
+  }
+
+  &__countryList {
+    &__countryImage {
+      width: 65%;
+    }
+    &__countryData {
+      p {
+        font-weight: bold;
+      }
+    }
+    li {
+      cursor: pointer;
+      height: 80px;
+      p {
+        padding: 0 50% 0 50%;
+      }
+    }
+    li:active {
+      background-color: black;
+      color: white;
+
+    }
+  }
 }
