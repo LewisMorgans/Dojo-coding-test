@@ -15,9 +15,9 @@ Further considerations not attempted due to time constraints and external factor
 - Compartmentalising component elements into child components to maintain SOLID design principles.
 - Investigate potential performance improvements by implementing separate typed objects to contain data model attributes (i.e) - Languages, Currencies.
 
-####Author: Lewis Morgans
+#### Author: Lewis Morgans
 
-####Date: 22/02/2022
+#### Date: 22/02/2022
 
-####Licence: Public use permitted by author
+#### Licence: Public use permitted by author
 
