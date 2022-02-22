@@ -1,7 +1,5 @@
 import {AfterViewInit, Component, OnInit} from '@angular/core';
 import { CountriesApiService } from '../../services/countries-api.service';
-import {Observable, Subscription} from 'rxjs';
-import { Country } from '../../models/country.model';
 import { Countries } from '../../models/countries.model';
 import { map } from 'rxjs/operators';
 
@@ -10,29 +8,28 @@ import { map } from 'rxjs/operators';
   templateUrl: './countries.component.html',
   styleUrls: ['./countries.component.scss'],
 })
-export class CountriesComponent implements AfterViewInit {
+export class CountriesComponent implements OnInit {
   public countries: Countries;
-  public selectedCountry: Object;
-  public countryCount = 0;
+  public selectedCountry: Object = null;
+  public countryCount = -1;
 
   constructor(private readonly countriesApiService: CountriesApiService) {}
 
-  ngAfterViewInit() {
-   this.mapper();
+  ngOnInit() {
+    this.mapper();
   }
 
-  async mapper(): Promise<Countries> {
-    let countryIndex = 0;
-    return this.countries = await this.countriesApiService.getCountries$()
+  public async mapper(): Promise<Countries> { // change to private
+    return (this.countries = await this.countriesApiService
+      .getCountries$()
       .pipe(
-        map((country) => {
+        map((country: Countries) => {
           for (let countryKey in country) {
-            this.countryCount = countryIndex++
+            this.countryCount++;
           }
           return country;
         })
       )
-      .toPromise();
-
+      .toPromise());
   }
 }

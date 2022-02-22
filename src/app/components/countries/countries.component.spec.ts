@@ -4,10 +4,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { of } from 'rxjs';
 import { CountriesApiService } from '../../services/countries-api.service';
 import { Countries } from '../../models/countries.model';
+import {By} from '@angular/platform-browser';
 
 describe('[CountriesComponent] Test Suite', () => {
   let component: CountriesComponent;
   let fixture: ComponentFixture<CountriesComponent>;
+  let spy;
   const mockCountryData = {
     name: 'Wales',
     population: '350000',
@@ -29,6 +31,7 @@ describe('[CountriesComponent] Test Suite', () => {
   );
 
   beforeEach(() => {
+    // spy = spyOn(component, 'mapper').and.callThrough();
     fixture = TestBed.createComponent(CountriesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -38,18 +41,19 @@ describe('[CountriesComponent] Test Suite', () => {
     expect(component).toBeTruthy();
   });
 
-  it('[Countries$] should be initialised on construction with mock values', done => {
-    component.countries$.subscribe((countries: Countries) => {
-      expect(countries).toContain(mockCountryData);
-      done();
-    });
-  });
-
-  it('[Selected] should contain list index country name on DOM mousedown', fakeAsync(() => {
-    expect(component.selectedCountry).toBeNull();
-    fixture.debugElement.nativeElement.querySelector('li').click();
+  it('[Mapper] should subscribe to API and populate countries variable with mockCountries data', fakeAsync(() => {
+    component.mapper();
     tick();
-    expect(component.selectedCountry).toContain(mockCountryData.name);
+    expect(component.countries).toContain(mockCountryData);
+  }));
+
+  fit('[Selected] should contain list index country name on DOM mousedown', fakeAsync(() => {
+    expect(component.selectedCountry).toBeNull();
+    fixture.debugElement.nativeElement.querySelector('.countrySelection').click()
+    tick();
+    fixture.detectChanges()
+    console.log(component.selectedCountry)
+    expect(component.selectedCountry).toContain(mockCountryData);
   }));
 
   it('DOM country LI should contain mockCountryData name on page load completion', () => {

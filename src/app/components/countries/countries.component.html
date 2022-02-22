@@ -6,29 +6,34 @@
     <div class="containerInner__nav">
       <ul>
         <li><p>Home</p></li>
-        <li><p>Countries</p></li>
+        <li class="containerInner__nav__highlighted"><p>Countries</p></li>
       </ul>
     </div>
     <div class="containerInner__countryList">
-      <h4>Countries ({{countryCount}})</h4>
-      <div *ngFor="let country of countries | keyvalue">
+      <div class="containerInner__countryList__title">
+        <h4 >Countries ({{ countryCount }})</h4>
+      </div>
+
+      <div *ngFor="let country of countries | keyvalue, let i = index">
         <ul>
-          <li (click)="selectedCountry = country">{{ country.value.name }}</li>
+          <li class="countrySelection"(click)="selectedCountry = country">{{ country.value.name }}</li>
         </ul>
       </div>
     </div>
     <div *ngFor="let country of selectedCountry | keyvalue | slice: 1">
-      <h4>{{ country.value.name }}</h4>
-      <img class="containerInner__countryList__countryImage" src="assets/image-placeholder_3x2.svg" alt="placeholder.png">
+      <div class="containerInner__countryList__countryData">
+        <h4>{{ country.value.name }}</h4>
+      </div>
+      <img class="containerInner__countryList__countryImage" src="assets/image-placeholder_3x2.svg" alt="placeholder.png" />
       <div class="containerInner__countryList__countryData">
         <label for="population">Population</label>
-        <p id="population"> {{ country.value["population"] }}</p>
+        <p id="population">{{ country.value['population'] }}</p>
         <label for="alpha3Code">Alpha3Code</label>
-        <p id="alpha3Code">{{ country.value["alpha3Code"] }}</p>
+        <p id="alpha3Code">{{ country.value['alpha3Code'] }}</p>
         <label for="region">Region</label>
         <p id="region">{{ country.value.region }}</p>
         <label for="subregion">Subregion</label>
-        <p id="subregion">{{ country.value["subregion"] }}</p>
+        <p id="subregion">{{ country.value['subregion'] }}</p>
       </div>
       <div class="containerInner__countryList__countryData" *ngFor="let i of country.value['currencies']">
         <label for="code">Currency Code</label>
@@ -42,11 +47,11 @@
         <label for="languageName">Language Name</label>
         <p id="languageName">{{ i['name'] }}</p>
         <label for="languageISO1">ISO639_1</label>
-        <p id="languageISO1">{{ i["iso639_1"] }}</p>
+        <p id="languageISO1">{{ i['iso639_1'] }}</p>
         <label for="languageISO2">ISO639_2</label>
-        <p id="languageISO2">{{ i["iso639_2"] }}</p>
+        <p id="languageISO2">{{ i['iso639_2'] }}</p>
         <label for="nativeName">Native Name</label>
-        <p id="nativeName">{{ i["nativeName"] }}</p>
+        <p id="nativeName">{{ i['nativeName'] }}</p>
       </div>
     </div>
   </div>

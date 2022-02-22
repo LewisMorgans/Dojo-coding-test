@@ -1,33 +1,71 @@
+
+$border-colour: #f5f4f4;
+
 .container {
   display: flex;
   flex-direction: column;
+
   &__pageTitle {
     display: inline-block;
-    text-align: center;
+    text-align: left;
+    border: solid 2px $border-colour;
+    margin-left: 435px;
+    padding-left: 30px;
   }
 }
-
-
-
 
 .containerInner {
   display: flex;
   flex-direction: row;
+
   ul {
     list-style: none;
+    padding: 0px;
   }
 
   &__nav {
     cursor: pointer;
+    width: 500px;
+    height: 100vh;
+    border-right: solid 2px $border-colour;
+
+    &__highlighted {
+      background-color: $border-colour;
+    }
+
+    li {
+      padding: 25px;
+      margin-left: 0
+    }
   }
 
   &__countryList {
+    width: 100%;
+    height: 30px;
+
+    &__title {
+      font-weight: bold;
+      background-color: $border-colour;
+
+      h4{
+        padding: 40px 40px 40px 0px;
+      }
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      border-bottom: 2px solid $border-colour;
+    }
     &__countryImage {
       width: 65%;
     }
     &__countryData {
       p {
         font-weight: bold;
+      }
+      h4 {
+        border-bottom: 2px solid $border-colour;
       }
     }
     li {
@@ -40,7 +78,6 @@
     li:active {
       background-color: black;
       color: white;
-
     }
   }
 }
