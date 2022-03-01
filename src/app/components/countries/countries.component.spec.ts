@@ -5,19 +5,22 @@ import { of } from 'rxjs';
 import { CountriesApiService } from '../../services/countries-api.service';
 import { Countries } from '../../models/countries.model';
 import { By } from '@angular/platform-browser';
+import { Country } from '../../models/country.model';
 
 describe('[CountriesComponent] Test Suite', () => {
   let component: CountriesComponent;
   let fixture: ComponentFixture<CountriesComponent>;
-  const mockCountryData = {
-    name: 'Wales',
-    population: '350000',
-    Alpha3Code: '1337',
-  };
+  const mockCountryData = [
+    {
+      name: 'Wales',
+      population: '350000',
+      alpha3Code: '1337',
+    } as unknown as Country,
+  ];
   const mockCountryCounter = [mockCountryData].length;
 
   const mockCountriesApiService = {
-    getCountries$: () => of([mockCountryData]),
+    getCountries$: () => of(mockCountryData),
   };
 
   beforeEach(
@@ -34,29 +37,25 @@ describe('[CountriesComponent] Test Suite', () => {
     fixture = TestBed.createComponent(CountriesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
+    component.listOfCountries = [];
   });
 
   it('should create [CountriesComponent]', () => {
     expect(component).toBeTruthy();
   });
 
-  it('[Mapper] should subscribe to API and populate countries object with mockCountries data', fakeAsync(() => {
-    expect(component.countries).toBeNull();
+  it('[Mapper] should subscribe to API and populate listOfCountries array with mockCountries', () => {
+    expect(component.listOfCountries).toEqual([]);
     component.ngOnInit();
-    tick();
-    expect(component.countries).toContain(mockCountryData);
-  }));
+    expect(component.listOfCountries).toContain(mockCountryData[0]);
+  });
 
-  it('[Selected] should contain selected country object from index of countries', fakeAsync(() => {
-    expect(component.selectedCountry).toBeNull();
-    component.ngOnInit();
-    tick();
-    fixture.detectChanges();
+  it('[Selected] should be false by default, and change to true on country selection click event', fakeAsync(() => {
+    expect(component.showCountryData).toBeFalsy();
     fixture.debugElement.nativeElement.querySelector('.countrySelection').click();
-    expect(component.selectedCountry).toEqual({
-      key: (component.countryCount - 1).toString(),
-      value: { ...mockCountryData },
-    });
+    fixture.detectChanges();
+    tick();
+    expect(component.showCountryData).toBeTruthy();
   }));
 
   it('DOM country LI should contain mockCountryData name after ngOnInit completes', fakeAsync(() => {
@@ -64,13 +63,12 @@ describe('[CountriesComponent] Test Suite', () => {
     tick();
     fixture.detectChanges();
     const countryList = fixture.debugElement.nativeElement.querySelector('.countrySelection').innerHTML;
-    expect(countryList).toEqual(mockCountryData.name);
+    expect(countryList).toEqual(mockCountryData[0].name);
   }));
 
-  it('[CountryCounter] counter variable should be updated to the length of the returned array after ngOnInit', fakeAsync(() => {
-    expect(component.countryCount).toBe(0);
+  it('[CountryCounter] counter variable should be updated to the length of the returned array after ngOnInit', () => {
+    expect(component.listOfCountries.length).toEqual(0);
     component.ngOnInit();
-    tick();
-    expect(component.countryCount).toEqual(mockCountryCounter);
-  }));
+    expect(component.listOfCountries.length).toEqual(mockCountryCounter);
+  });
 });

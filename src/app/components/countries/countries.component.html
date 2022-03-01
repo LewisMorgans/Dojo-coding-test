@@ -11,54 +11,55 @@
     </div>
     <div class="containerInner__countryList">
       <div class="containerInner__countryList__title">
-        <h4>Countries ({{ countryCount }})</h4>
+        <h4>Countries ({{ listOfCountries.length }})</h4>
       </div>
 
-      <div *ngFor="let country of countries | keyvalue; let i = index">
+      <div *ngFor="let country of listOfCountries; let index = index">
         <ul>
-          <li class="countrySelection" (click)="selectedCountry = country">{{ country.value.name }}</li>
+          <li class="countrySelection" (click)="showCountryData = true; countryIndex = index">{{ country.name }}</li>
         </ul>
       </div>
     </div>
-    <div class="containerInner__countryList__parent" *ngFor="let country of selectedCountry | keyvalue | slice: 1">
+    <div *ngIf="showCountryData == true" class="containerInner__countryList__parent">
       <div class="containerInner__countryList__countryData">
         <div class="containerInner__countryList__closeButton">
           <div>
-            <h4>{{ country.value.name }}</h4>
+            <h4>{{ listOfCountries[countryIndex]?.name }}</h4>
           </div>
           <div>
-            <img (click)="selectedCountry = null" src="assets/close.png" alt="closeMenu" />
+            <img (click)="showCountryData = false" src="assets/close.png" alt="closeMenu" />
           </div>
         </div>
       </div>
       <img class="containerInner__countryList__countryImage" src="assets/image-placeholder_3x2.svg" alt="placeholder.png" />
       <div class="containerInner__countryList__countryData">
         <label for="population">Population</label>
-        <p id="population">{{ country.value['population'] }}</p>
+        {{ listOfCountries[countryIndex]?.subregion }}
+        <p id="population">{{ listOfCountries[countryIndex]?.population }}</p>
         <label for="alpha3Code">Alpha3Code</label>
-        <p id="alpha3Code">{{ country.value['alpha3Code'] }}</p>
+        <p id="alpha3Code">{{ listOfCountries[countryIndex]?.alpha3Code }}</p>
         <label for="region">Region</label>
-        <p id="region">{{ country.value.region }}</p>
+        <p id="region">{{ listOfCountries[countryIndex]?.region }}</p>
         <label for="subregion">Subregion</label>
-        <p id="subregion">{{ country.value['subregion'] }}</p>
+        <p id="subregion">{{ listOfCountries[countryIndex]?.subregion }}</p>
       </div>
-      <div class="containerInner__countryList__countryData" *ngFor="let i of country.value['currencies']">
+      <div class="containerInner__countryList__countryData" *ngFor="let currency of listOfCountries[countryIndex]?.currencies">
         <label for="code">Currency Code</label>
-        <p id="code">{{ i.code }}</p>
+        <p id="code">{{ currency.code }}</p>
         <label for="currencyName">Currency Name</label>
-        <p id="currencyName">{{ i.name }}</p>
+        <p id="currencyName">{{ currency.name }}</p>
         <label for="currencySymbol">Currency Symbol</label>
-        <p id="currencySymbol">{{ i.symbol }}</p>
+        <p id="currencySymbol">{{ currency.symbol }}</p>
       </div>
-      <div class="containerInner__countryList__countryData" *ngFor="let i of country.value.languages">
+      <div class="containerInner__countryList__countryData" *ngFor="let language of listOfCountries[countryIndex]?.languages">
         <label for="languageName">Language Name</label>
-        <p id="languageName">{{ i['name'] }}</p>
+        <p id="languageName">{{ language.name }}</p>
         <label for="languageISO1">ISO639_1</label>
-        <p id="languageISO1">{{ i['iso639_1'] }}</p>
+        <p id="languageISO1">{{ language.iso639_1 }}</p>
         <label for="languageISO2">ISO639_2</label>
-        <p id="languageISO2">{{ i['iso639_2'] }}</p>
+        <p id="languageISO2">{{ language.iso639_2 }}</p>
         <label for="nativeName">Native Name</label>
-        <p id="nativeName">{{ i['nativeName'] }}</p>
+        <p id="nativeName">{{ language.nativeName }}</p>
       </div>
     </div>
   </div>

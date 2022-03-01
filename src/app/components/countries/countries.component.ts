@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CountriesApiService } from '../../services/countries-api.service';
 import { Countries } from '../../models/countries.model';
 import { map } from 'rxjs/operators';
+import { Country } from '../../models/country.model';
 
 @Component({
   selector: 'app-countries',
@@ -9,9 +10,9 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./countries.component.scss'],
 })
 export class CountriesComponent implements OnInit {
-  public countries: Countries = null;
-  public selectedCountry: Object = null;
-  public countryCount = -1;
+  public showCountryData = false;
+  public listOfCountries: Country[] = [];
+  public countryIndex = -1;
 
   constructor(private readonly countriesApiService: CountriesApiService) {}
 
@@ -19,18 +20,16 @@ export class CountriesComponent implements OnInit {
     this.apiToLocalDataMapper();
   }
 
-  private async apiToLocalDataMapper(): Promise<Countries> {
-    // change to private
-    return (this.countries = await this.countriesApiService
+  private apiToLocalDataMapper(): void {
+    this.countriesApiService
       .getCountries$()
       .pipe(
         map((country: Countries) => {
           for (let countryKey in country) {
-            this.countryCount++;
+            this.listOfCountries.push(country[countryKey] as Country);
           }
-          return country;
         })
       )
-      .toPromise());
+      .subscribe();
   }
 }
